@@ -1,2 +1,4 @@
-/newsletter/.react-email
-/newsletter/node_modules
+node_modules
+.react-email
+.next
+
