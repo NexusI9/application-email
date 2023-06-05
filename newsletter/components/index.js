@@ -1,0 +1,9 @@
+export {default as Header} from './Header';
+export {default as Intro} from './Intro';
+export {default as Cover} from './Cover';
+export {default as Resume} from './Resume';
+export {default as Showreel} from './Showreel';
+export {default as Skills} from './Skills';
+export {default as Portfolio} from './Portfolio';
+export {default as Thank} from './Thank';
+export {default as Footer} from './Footer';

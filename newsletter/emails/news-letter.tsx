@@ -1,44 +1,53 @@
 import {
     Body,
     Container,
+    Column,
+    Section,
     Head,
     Heading,
     Html,
     Img,
     Link,
+    Hr,
     Preview,
     Text,
   } from '@react-email/components';
   import * as React from 'react';
+  import { BASE_URL } from '../lib/utilities';
+  import style, {color, size} from '../lib/style';
+  import { Header, Intro, Cover, Resume, Showreel, Skills, Portfolio, Thank, Footer } from '../components';
 
   interface NewsletterProps {
     agencyName?: string;
   }
 
-  const baseUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : '';
+  /*const BASE_URL = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}/static/newsletter`
+  : 'https://elkhantour.com/assets/newsletter';*/
 
-  const color = {
-    purple:'#5D47FF',
-    marine:'#182449',
-    void:'#070812',
-    dark_grey:'#444D66',
-    blue_white:'#F5F7F9',
-    white:'#ffffff'
-  }
-  
-  const main= {
-    backgroundColor: color.blue_white,
-    fontFamily: 'HelveticaNeue,Helvetica,Arial,sans-serif',
-  };
+
+
 
   export const Newsletter = ({agencyName='agencyName'}:NewsletterProps) => (
     <Html>
         <Head />
-        <Body>
+        <Body style={style.main}>
+            <Container style={style.container}>
+                <Section style={{textAlign:'center'}}>
+                  <Link href='https://elkhantour.com/' style={style.link}>This email doesn’t display correctly? Click here</Link>
+                </Section>
 
-
+                <Header />
+                <Intro />
+                <Cover agencyName={agencyName}/>
+                <Resume />
+                <Showreel />
+                <Skills />
+                <Portfolio />
+                <Thank />
+                <Footer />
+              
+            </Container>
         </Body>
     </Html>
   );
