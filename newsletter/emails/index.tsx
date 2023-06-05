@@ -4,11 +4,9 @@ import {
     Column,
     Section,
     Head,
-    Heading,
     Html,
     Img,
     Link,
-    Hr,
     Preview,
     Text,
   } from '@react-email/components';
@@ -31,13 +29,14 @@ import {
   export const Newsletter = ({agencyName='agencyName'}:NewsletterProps) => (
     <Html>
         <Head />
+        <Preview>Hello!</Preview>
         <Body style={style.main}>
-            <Container style={style.container}>
-                <Section style={{textAlign:'center'}}>
+        <Section style={{textAlign:'center'}}>
                   <Link href='https://elkhantour.com/' style={style.link}>This email doesn’t display correctly? Click here</Link>
                 </Section>
 
                 <Header />
+            <Container style={style.container}>
                 <Intro />
                 <Cover agencyName={agencyName}/>
                 <Resume />

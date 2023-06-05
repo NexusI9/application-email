@@ -4,7 +4,7 @@ import { BASE_URL, PORTFOLIO_URL } from '../lib/utilities';
 import style, { color, size } from '../lib/style';
 
 export default () => (
-    <Section>
+    <Section style={{paddingLeft:"30px"}}>
         <Column>
             <Heading as="h2" style={style.heading}>See the <br/>full picture</Heading>
             <Heading as="h3" style={style.subtitle}>From Motion, Web, Product Design to Illustrations, and more!</Heading>

@@ -10,10 +10,10 @@ export const color = {
   };
 
 export const size = {
-    small:"14px",
-    p:"16px",
-    subtext:"20px",
-    big:"35px",
+    small:"16px",
+    p:"20px",
+    subtext:"26px",
+    big:"42px",
 };
 
 
@@ -26,28 +26,32 @@ export default {
         marginTop: '20px',
         width: '600px',
         margin: '0 auto',
-        padding: '30px 0px 130px',
+        padding: '0px 0px 0px',
     },
     main:{
-        backgroundColor: color.blue_white,
+        backgroundColor: color.white,
         color:color.marine,
+        width:'100%',
         fontFamily: 'HelveticaNeue,Helvetica,Arial,sans-serif',
     },
     link:{
+        paddingTop:'10px',
         color:color.dark_grey,
         fontWeight:'lighter',
         margin:'auto',
-        fontSize:'12px',
+        fontSize:size.small,
         textDecoration:'underline'
     },
     topBanner:{
-        padding:'10px 30px'
+        width:'600px',
+        padding:'20px 30px'
     },
     introText:{
         textAlign:'center', 
         fontSize:size.p, 
         lineHeight:'1.5', 
-        margin:0
+        margin:0,
+        padding: '0 30px'
     },
     heading:{
         color: color.purple,
@@ -64,14 +68,14 @@ export default {
     },
     resume:{
         heading:{ margin: 0, fontSize:size.p, textAlign:'center', backgroundColor:color.panel_bkg, color:color.marine },
-        link:{ fontSize: size.p, color: color.purple, fontWeight:'bold', textDecoration:'none' }
+        link:{ fontSize: size.small, color: color.purple, fontWeight:'bold', textDecoration:'none' }
     },
     button:{
         backgroundColor:color.purple,
         color:color.blue_white,
         fontSize:size.subtext,
         letterSpacing:'1px',
-        padding: '10px 20px',
+        padding: '10px 30px',
         borderRadius:"3px"
     }
 };

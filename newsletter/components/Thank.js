@@ -40,15 +40,15 @@ export default () => (
             Thank you so much for <br/>your consideration 
             </Heading>
             <Heading as="h3" style={{...style.subtitle, marginBottom:'3px'}}>
-            I am open to work and ready for a new adventure! 
+            I am open to work and ready for<br/> a new adventure! 
             </Heading>
-            <Text style={{fontSize:size.p, marginTop:'3px', marginBottom:'0'}}>So if you’re interested in my profile, feel free to reach out to me</Text>
+            <Text style={{fontSize:size.p, marginTop:'20px', marginBottom:'0'}}>If you’re interested in my profile, feel free to reach out</Text>
         </Section>
         <Section>
-            <Column><Text style={{margin:'0', fontSize:size.p, textAlign: 'right', width: '310px', marginLeft: 'auto'}}>using one of the contact below.</Text></Column>
-            <Column><Img style={{marginRight: '134px', marginLeft:'5px'}}src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji"/></Column>
+            <Column><Text style={{margin:'0', fontSize:size.p, textAlign: 'right', marginLeft: 'auto'}}>to me using one of the contact below.</Text></Column>
+            <Column><Img style={{marginRight: '74px', marginLeft:'5px'}}src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji"/></Column>
         </Section>
-        <Img style={{margin:'10px auto 30px'}} src={`${BASE_URL}/line.jpg`} width="46"/>
+        <Img style={{margin:'20px auto 30px'}} src={`${BASE_URL}/line.jpg`} width="46"/>
 
         {
             contact.map( ({name, href, icon, label}) => 

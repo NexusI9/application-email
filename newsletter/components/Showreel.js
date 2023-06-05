@@ -26,7 +26,7 @@ export default () => (
             Years of creativity, <br/> in less than 2 minutes
             </Heading>
             <Heading as="h3" style={{...style.subtitle, paddingLeft:'30px'}}>
-            Check out my latest showreel for a quick overview <br/> of my extensive digital content
+            Check out my latest showreel for a quick <br/> overview of my extensive digital content
             </Heading>
 
             <Link href={SHOWREEL_URL}>

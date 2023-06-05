@@ -22,26 +22,26 @@ export default () => (<>
             Web & Motion Designer :: Art Director :: Web Developer
         </Heading>
         <Text style={style.introText}>
-            I am a French Creative with an expertise in Web and Motion Design, <br /> but also proficiencies in web development, 3D design,
-            and illustration. <br /> An extended skill set I put at work in various projects for the past 6 years such as marketing collaterals, web apps, as well as audiovisual interactive setups.
+            I am a French Creative with an expertise in Web and Motion Design, but also proficiencies in web development, 3D design,
+            and illustration. An extended skill set I put at work in various projects for the past 6 years such as marketing collaterals, web apps, as well as audiovisual interactive setups.
         </Text>
     </Section>
     <Section>
         <Column>
-            <Text style={{ textAlign: 'center', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", marginLeft: "84px" }}>I am now looking to join an amazing team in Taipei!</Text>
+            <Text style={{ textAlign: 'right', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0"}}>I am now looking to join an amazing team in Taipei!</Text>
         </Column>
         <Column>
             <Img
                 src={`${BASE_URL}/taiwan-flag.png`}
                 width="18"
                 alt="Taiwan emoji flag"
-                style={{ float: "left" }}
+                style={{ float: "left", marginLeft:'10px' }}
             />
             <Img
                 src={`${BASE_URL}/sun.png`}
                 width="18"
                 alt="sun emoji"
-                style={{ float: "left", marginRight: "100px" }}
+                style={{ float: "left", marginRight: "50px" }}
             />
         </Column>
     </Section>

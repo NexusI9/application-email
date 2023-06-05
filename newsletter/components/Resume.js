@@ -21,7 +21,7 @@ export default () => (
                 See my entire resume below
             </Heading>
         </Section>
-        <Section style={{ backgroundColor: color.marine }}>
+        <Section style={{ backgroundColor: color.marine, width:"600px" }}>
             <Column>
                 <Img src={`${BASE_URL}/resume/slice-left-a.png`} width="30" height="350" alt='blue background element' />
             </Column>
@@ -33,7 +33,7 @@ export default () => (
                         heading='中文版本'
                         link='檢查簡歷'
                         href='https://elkhantour.com/assets/pdf/%E7%B0%A1%E6%AD%B7-Nassim_El_Khantour.pdf'
-                        width='108px'
+                        width='115px'
                         padding='10px'
                     />
                     <Img src={`${BASE_URL}/resume/slice-left-e.png`} width="173" alt='white background element' />
@@ -50,7 +50,7 @@ export default () => (
                         heading='English Version'
                         link='See the resume'
                         href='https://elkhantour.com/assets/pdf/Resume-Nassim_El_Khantour.pdf'
-                        width='137px'
+                        width='142px'
                         padding='16px'
                     />
                     <Img src={`${BASE_URL}/resume/slice-mid-e.png`} width="173" alt='white background element' />

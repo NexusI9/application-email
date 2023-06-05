@@ -43,7 +43,7 @@ export default () => (
             <Heading as="h2" style={{fontSize:size.subtext, color:color.purple}}>Nassim El Khantour</Heading>
             <Text style={{color:color.dark_grey, fontSize:size.p}}>臺北市，台灣</Text>
         </Section>
-        <Section style={{backgroundColor:color.white, padding:" 0px 230px"}}>
+        <Section style={{backgroundColor:color.white, padding:" 0px 215px"}}>
             {
                 socials.map(({name, url, icon, width, height}) => 
                 <Column width={`${width}px`}>
@@ -53,13 +53,13 @@ export default () => (
                             width={width}
                             height={height}
                             alt={`${name} icon`}
-                            style={{margin:'0 10px'}}
+                            style={{margin:'0 15px'}}
                         />
                     </Link>
                 </Column>
                 )
             }
         </Section>
-        <Text style={{margin:0, backgroundColor:color.white, textAlign:'center', padding: '20px 0px', fontSize:size.small, color:color.dark_grey, fontWeight:'bold'}}>sent with passion and strong motivation</Text>
+        <Text style={{margin:0, backgroundColor:color.white, textAlign:'center', padding: '30px 0px', fontSize:size.small, color:color.dark_grey}}>Sent with passion and strong motivation</Text>
     </>
 );
