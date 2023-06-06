@@ -31,7 +31,7 @@ import {
         <Head />
         <Preview>Hello!</Preview>
         <Body style={style.main}>
-        <Section style={{textAlign:'center'}}>
+        <Section style={{textAlign:'center', marginTop:"20px"}}>
                   <Link href='https://elkhantour.com/' style={style.link}>This email doesn’t display correctly? Click here</Link>
                 </Section>
 

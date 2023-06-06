@@ -74,10 +74,10 @@ export default {
     button:{
         backgroundColor:color.purple,
         color:color.blue_white,
-        fontSize:size.subtext,
+        fontSize:size.p,
         fontWeight:"bold",
         letterSpacing:'1px',
-        padding: '10px 30px',
+        padding: '10px 25px',
         borderRadius:"3px"
     }
 };
