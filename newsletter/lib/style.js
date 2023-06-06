@@ -6,7 +6,8 @@ export const color = {
     dark_grey:'#444D66',
     blue_white:'#F5F7F9',
     white:'#ffffff',
-    panel_bkg:'#FCFDFF'
+    panel_bkg:'#FCFDFF',
+    purple_light:"#C5BEF8"
   };
 
 export const size = {
@@ -74,6 +75,7 @@ export default {
         backgroundColor:color.purple,
         color:color.blue_white,
         fontSize:size.subtext,
+        fontWeight:"bold",
         letterSpacing:'1px',
         padding: '10px 30px',
         borderRadius:"3px"
