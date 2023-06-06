@@ -7,7 +7,7 @@ export default () => (
     <Section style={{paddingLeft:"30px"}}>
         <Column>
             <Heading as="h2" style={style.heading}>See the <br/>full picture</Heading>
-            <Heading as="h3" style={style.subtitle}>From Motion, Web, Product Design to Illustrations, and more!</Heading>
+            <Heading as="h3" style={{...style.subtitle, marginTop:"3px"}}>Explore Motion, Web, Product Design, illustrations, and more!</Heading>
             <br/>
             <br/>
             <Link href={PORTFOLIO_URL} style={{...style.button}}>visit my website</Link>

@@ -38,12 +38,12 @@ const socials = [
 
 export default () => (
     <>
-        <Section style={{backgroundColor:color.white, padding:" 50px 30px 10px", textAlign:"center"}}>
+        <Section style={{backgroundColor:color.marine, padding:" 50px 30px 10px", textAlign:"center"}}>
             <Img src={`${BASE_URL}/logo-big.png`} style={{margin:'auto'}} width="68"/>
-            <Heading as="h2" style={{fontSize:size.subtext, color:color.purple}}>Nassim El Khantour</Heading>
-            <Text style={{color:color.dark_grey, fontSize:size.p}}>臺北市，台灣</Text>
+            <Heading as="h2" style={{fontSize:size.subtext, color:color.purple, marginBottom:"0"}}>Nassim El Khantour</Heading>
+            <Text style={{color:color.blue_white, fontSize:size.p, marginTop:"5px"}}>臺北市，台灣</Text>
         </Section>
-        <Section style={{backgroundColor:color.white, padding:" 0px 215px"}}>
+        <Section style={{backgroundColor:color.marine, padding:" 0px 215px"}}>
             {
                 socials.map(({name, url, icon, width, height}) => 
                 <Column width={`${width}px`}>
@@ -60,6 +60,6 @@ export default () => (
                 )
             }
         </Section>
-        <Text style={{margin:0, backgroundColor:color.white, textAlign:'center', padding: '30px 0px', fontSize:size.small, color:color.dark_grey}}>Sent with passion and strong motivation</Text>
+        <Text style={{margin:0, backgroundColor:color.marine, textAlign:'center', padding: '30px 0px', fontSize:size.small, color:color.blue_white}}>Sent with passion and strong motivation</Text>
     </>
 );

@@ -5,7 +5,7 @@ import {
   import { BASE_URL } from '../lib/utilities';
 
 export default () => (
-    <Section style={{padding: '130px 0'}}>
+    <Section style={{padding: '100px 0 80px'}}>
         <Img src={`${BASE_URL}/slide-ido.jpg`} width="600"/>
     </Section>
 );

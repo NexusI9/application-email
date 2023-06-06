@@ -2,30 +2,48 @@ import {
     Section,
     Heading,
     Text,
+    Img,
+    Column
 } from '@react-email/components';
 import * as React from 'react';
-import style, { size } from '../lib/style';
+import style, { size, color } from '../lib/style';
+import { BASE_URL } from '../lib/utilities';
 
 
-export default ({agencyName=''}) => (
-    <Section style={style.section}>
-
-        <Heading as="h2" style={style.heading}>
-            Dear {agencyName} <br /> hiring team,
+export default ({ agencyName = '' }) => (
+    <Section style={{...style.section, paddingBottom:"100px"}}>
+        <Img
+            src={`${BASE_URL}/dear.png`}
+            width="173"
+        />
+        <Heading as="h2" style={{ paddingLeft: "100px", fontSize: size.subtext, color: color.purple, margin: "0" }}>
+            {agencyName} hiring team,
         </Heading>
 
+        <Text style={{ fontSize: size.p, marginBottom: "0" }}>
+            I am a French Creative with 6 years of experience in Web and Motion Design, but also skills in Web Development, 3D Design, and illustration.
+            A wealth of skills I used on various projects such as marketing collaterals, web apps, and audiovisual interactive setups.
+            <br /><br />
+            During my last 2 years as a Lead Designer at a Canadian Digital Marketing agency, I mastered Motion, Web, and Print productions while also handling Project Management tasks.
+            <br />I am currently in Taiwan, and seeking to join an amazing
+        </Text>
+        <Section>
+            <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float:"left" }}>team in Taipei!</Text>
+            <Img
+                src={`${BASE_URL}/taiwan-flag.png`}
+                width="18"
+                alt="Taiwan emoji flag"
+                style={{ float: "left", marginLeft: '10px', marginTop:"6px" }}
+            />
+            <Img
+                src={`${BASE_URL}/sun.png`}
+                width="18"
+                alt="sun emoji"
+                style={{ float: "left", margin: "6px auto auto 5px" }}
+            />
+        </Section>
         <Text style={{ fontSize: size.p }}>
-            After working for the past 2 years as a Lead Designer in a Canadian Digital Marketing agency where I mastered Motion, Web and Print productions as well as execute project management related tasks, I am currently in Taiwan and very interested in a full-time job as a Visual Designer at {agencyName}.
-            <br /><br />
-            On top of mastering Motion and Web Design, my past experience as a Multimedia Designer and Art Director expanded my proficiencies with practices like 3D design, web development, illustration, and sound design.
-            An extensive skill set that I put together in diverse projects such as: websites, marketing collaterals, products showcases, video-mapping installations, as well as animated short movies (later awarded).
-            <br /><br />
-            This wealth of experience improved the flexibility, efficiency, and quality of my work by ensuring the clients expectations. In addition, working with various business fields has been socially nourishing and greatly improved my communication and delivery skills.
-            <br /><br />
-            Last but not least, my experience in a cross-cultural agency sharpened my understanding of digital marketing stakes, and strengthen my ability to work as part of a team.
-            <br /><br />
-            Being very curious and proactive by nature, I always strive to design and develop innovative applications and visuals, and I love the challenge and the creative solutions that come with it.
-            I am very motivated to contribute to your team success with my broad skillsets and ideas, as well as learning from other members and the beautiful Taiwanese culture.
+            I would be very interested in a position as a Visual Designer at {agencyName}, where I wish to bring my extensive skill set and passion for innovative design in order to contribute to your team's success.
         </Text>
 
     </Section>
