@@ -14,8 +14,8 @@ import {
       name:'website',
       url:PORTFOLIO_URL,
       icon: 'icon-website',
-      width:"18",
-      height:"18"
+      width:"16",
+      height:"16"
     },
     {
       name:'linkedIn',
@@ -29,7 +29,7 @@ import {
       url:BEHANCE,
       icon: 'icon-behance',
       width:"20",
-      height:"12.5"
+      height:"13"
     }
   ];
 
