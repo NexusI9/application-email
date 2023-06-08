@@ -15,7 +15,8 @@ import {
   } from '@react-email/components';
   import * as React from 'react';
   import { BASE_URL, SHOWREEL_URL } from '../lib/utilities';
-  import style from '../lib/style';
+  import style, {MAX_WIDTH} from '../lib/style';
+
 
 
 
@@ -30,7 +31,7 @@ export default () => (
             </Heading>
 
             <Link href={SHOWREEL_URL}>
-                <Img src={`${BASE_URL}/slice-showreel.jpg`} width='600' alt='thumbnail of a video'/>
+                <Img src={`${BASE_URL}/slice-showreel.jpg`} width={MAX_WIDTH} alt='thumbnail of a video'/>
             </Link>
     </Section>
     <Section style={{textAlign:'center'}}>

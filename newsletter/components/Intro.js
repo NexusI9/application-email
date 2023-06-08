@@ -7,14 +7,14 @@ import {
 } from '@react-email/components';
 import * as React from 'react';
 import { BASE_URL } from '../lib/utilities';
-import style, { color, size } from '../lib/style';
+import style, { color, size, MAX_WIDTH } from '../lib/style';
 
 
 export default () => (<>
     <Section style={{paddingBottom:"50px"}}>
         <Img
             src={`${BASE_URL}/slice-banner.jpg`}
-            width="600"
+            width={MAX_WIDTH}
             alt="banner illustration with work showcase"
         />
 

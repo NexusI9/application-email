@@ -37,7 +37,7 @@ import {
     <Section style={style.topBanner}>
     <Column>
       <Img
-        src={`${BASE_URL}/logo.png`}
+        src={`${BASE_URL}/logo-purple.png`}
         width="30"
         height="30"
         alt="logo elkhantour"

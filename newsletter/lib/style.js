@@ -17,6 +17,8 @@ export const size = {
     big:"42px",
 };
 
+export const MAX_WIDTH = "600px !important";
+
 
 export default {
 
@@ -25,7 +27,7 @@ export default {
     container:{
         backgroundColor: color.blue_white,
         marginTop: '20px',
-        width: '600px',
+        width: MAX_WIDTH,
         margin: '0 auto',
         padding: '0px 0px 0px',
     },
@@ -44,7 +46,7 @@ export default {
         textDecoration:'underline'
     },
     topBanner:{
-        width:'600px',
+        width: MAX_WIDTH,
         padding:'20px 30px'
     },
     introText:{
@@ -68,7 +70,7 @@ export default {
         padding: '20px 30px'
     },
     resume:{
-        heading:{ margin: 0, fontSize:size.p, textAlign:'center', backgroundColor:color.panel_bkg, color:color.marine },
+        heading:{ margin: 0, fontSize:"18px", textAlign:'center', backgroundColor:color.panel_bkg, color:color.marine },
         link:{ fontSize: size.small, color: color.purple, fontWeight:'bold', textDecoration:'none' }
     },
     button:{

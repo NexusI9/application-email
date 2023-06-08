@@ -68,6 +68,6 @@ export default () => (
                 )
             }
         </Section>
-        <Img src={`${BASE_URL}/wrap.png`} width="302" style={{ float: 'right', paddingRight: "50px", paddingBottom: "80px" }} />
+        <Img src={`${BASE_URL}/wrap.png`} width="350" style={{ float: 'right', paddingRight: "50px", paddingBottom: "80px" }} />
     </>
 );
