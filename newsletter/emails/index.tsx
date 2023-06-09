@@ -29,7 +29,7 @@ interface NewsletterProps {
 export const Newsletter = ({ agencyName = 'agencyName' }: NewsletterProps) => (
   <Html>
     <Head />
-    <Preview>Web and Motion Designer with proficiencies in Front-End Development freshly arrived in Taipei and ready to  unleash his creative power in town!</Preview>
+    <Preview>Hello! I am a Web and Motion Designer with proficiencies in Front-End Development freshly arrived in Taipei, and ready to unleash my creative power in town!</Preview>
     <Body style={style.main}>
       <Section style={{ textAlign: 'center', marginTop: "20px", width: MAX_WIDTH }}>
         <Link href='https://elkhantour.com/' style={style.link}>This email doesn’t display correctly? Click here</Link>
