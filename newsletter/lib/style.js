@@ -27,7 +27,6 @@ export default {
     container:{
         backgroundColor: color.blue_white,
         marginTop: '20px',
-        width: MAX_WIDTH,
         margin: '0 auto',
         padding: '0px 0px 0px',
     },
@@ -36,6 +35,10 @@ export default {
         color:color.marine,
         width:'100%',
         fontFamily: 'HelveticaNeue,Helvetica,Arial,sans-serif',
+        margin: 0,
+        padding: 0,
+        minWidth: '100% !important',
+        WebkitTextSizeAdjust: '100%'
     },
     link:{
         paddingTop:'10px',
