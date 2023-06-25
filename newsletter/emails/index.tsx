@@ -18,13 +18,6 @@ interface NewsletterProps {
   agencyName?: string;
 }
 
-/*const BASE_URL = process.env.VERCEL_URL
-? `https://${process.env.VERCEL_URL}/static/newsletter`
-: 'https://elkhantour.com/assets/newsletter';*/
-
-
-
-
 export const Newsletter = ({ agencyName = 'agencyName' }: NewsletterProps) => (
   <Html>
     <Head />
@@ -32,7 +25,7 @@ export const Newsletter = ({ agencyName = 'agencyName' }: NewsletterProps) => (
     <Body style={style.main}>
       <Section style={{ width: "100%" }}>
         <Section style={{ textAlign: 'center', marginTop: "20px" }}>
-          <Link href='https://elkhantour.com/' style={style.link}>This email doesn’t display correctly? Click here</Link>
+          <Link href={`https://elkhantour.com/view/?n=${btoa(agencyName)}`} style={style.link}>This email doesn’t display correctly? Click here</Link>
         </Section>
         <Header />
         <Container style={style.container}>

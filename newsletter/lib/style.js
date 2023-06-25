@@ -7,7 +7,8 @@ export const color = {
     blue_white:'#F5F7F9',
     white:'#ffffff',
     panel_bkg:'#FCFDFF',
-    purple_light:"#C5BEF8"
+    purple_light:"#C5BEF8",
+    purple_mid:'#b2b2ff'
   };
 
 export const size = {
