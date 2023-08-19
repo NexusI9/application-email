@@ -35,7 +35,7 @@ const contact = [
 
 export default () => (
     <>
-        <Section style={{ textAlign: 'center', padding: '90px 30px 0px' }}>
+        <Section style={{ textAlign: 'center', padding: '60px 30px 0px' }}>
             <Heading as="h2" style={{...style.heading, marginBottom:"20px"}}>
                 Thank you so much for <br />your consideration
             </Heading>
@@ -48,21 +48,22 @@ export default () => (
             <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'right', marginLeft: 'auto' }}>to me using one of the contact below.</Text></Column>
             <Column><Img style={{ marginRight: '74px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
         </Section>
-        <Section style={{...style.section, marginTop:"20px"}}>
+        <Section style={{...style.section, marginTop:"20px", marginBottom:"20px"}}>
             {
                 contact.map(({ name, href, icon, label }) =>
                     <Link href={href}>
                         <Section style={{
-                            marginBottom: "10px",
+                            marginBottom: "20px",
                             padding: "9px 17px",
                             borderWidth: "1px",
-                            borderColor: color.purple_light,
+                            borderColor: color.purple,
                             borderStyle: "solid",
-                            borderRadius: "3px"
+                            borderRadius: "3px",
+                            backgroundColor: color.purple
                         }}>
                             <Column style={{ width: '35px' }}><Img src={`${BASE_URL}/${icon}.png`} width="35" alt={`${name} icon`} /></Column>
-                            <Column style={{ width: '3px' }}><Img src={`${BASE_URL}/vertical-line.jpg`} width="2" height="45" alt={`${name} icon`} style={{ margin: "0 10px" }} /></Column>
-                            <Column><Text style={{ fontSize: size.subtext, textDecoration: 'none', color: color.purple, fontWeight: 'bold' }}  >{label}</Text></Column>
+                            <Column style={{ width: '3px' }}><Img src={`${BASE_URL}/vertical-line.jpg`} width="2" height="45" alt={`${name} icon`} style={{ margin: "0 15px" }} /></Column>
+                            <Column><Text style={{ margin:0, fontSize: size.subtext, textDecoration: 'none', letterSpacing: "1px", color: color.purple_white, fontWeight: 'bold' }}  >{label}</Text></Column>
                         </Section>
                     </Link>
                 )

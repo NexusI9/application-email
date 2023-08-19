@@ -8,6 +8,7 @@ export const color = {
     white:'#ffffff',
     panel_bkg:'#FCFDFF',
     purple_light:"#C5BEF8",
+    purple_white: "#ECE9FF",
     purple_mid:'#b2b2ff'
   };
 

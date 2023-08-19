@@ -32,7 +32,7 @@ const QUOTE_MAP = [
 
 export default () => {
 
-    return (<Section style={{marginBottom:"30px"}}>
+    return (<Section style={{marginBottom:"35px"}}>
         <Heading as="h2" style={{ ...style.heading, paddingLeft: '30px', marginBottom:"40px" }}>
             We propelled projects together!
         </Heading>
