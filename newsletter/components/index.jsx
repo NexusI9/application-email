@@ -7,3 +7,4 @@ export {default as Skills} from './Skills';
 export {default as Portfolio} from './Portfolio';
 export {default as Thank} from './Thank';
 export {default as Footer} from './Footer';
+export {default as Quotes} from './Quotes';

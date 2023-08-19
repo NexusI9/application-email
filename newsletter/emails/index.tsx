@@ -12,7 +12,7 @@ import {
 } from '@react-email/components';
 import * as React from 'react';
 import style, { MAX_WIDTH } from '../lib/style';
-import { Header, Intro, Cover, Resume, Showreel, Skills, Portfolio, Thank, Footer } from '../components';
+import { Header, Intro, Cover, Resume, Showreel, Skills, Quotes, Portfolio, Thank, Footer } from '../components';
 
 interface NewsletterProps {
   agencyName?: string;
@@ -34,6 +34,7 @@ export const Newsletter = ({ agencyName = 'agencyName' }: NewsletterProps) => (
           <Resume />
           <Showreel />
           <Skills />
+          <Quotes />
           <Portfolio />
           <Thank />
           <Footer />
