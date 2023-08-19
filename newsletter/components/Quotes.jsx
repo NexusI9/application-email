@@ -36,7 +36,7 @@ export default () => {
         <Heading as="h2" style={{ ...style.heading, paddingLeft: '30px', marginBottom:"40px" }}>
             We propelled projects together!
         </Heading>
-        {QUOTE_MAP.map((item, id) => <Quote {...item} index={id + 1} />)}
+        {QUOTE_MAP.map((item, id) => <Quote key={`quote${id}`} {...item} index={id + 1} />)}
 
     </Section>);
 }

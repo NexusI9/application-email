@@ -51,7 +51,7 @@ export default () => (
         <Section style={{...style.section, marginTop:"20px", marginBottom:"20px"}}>
             {
                 contact.map(({ name, href, icon, label }) =>
-                    <Link href={href}>
+                    <Link key={icon+name+'contact'} href={href}>
                         <Section style={{
                             marginBottom: "20px",
                             padding: "9px 17px",

@@ -46,7 +46,7 @@ export default () => (
         <Section style={{backgroundColor:color.marine, padding:" 0px 215px"}}>
             {
                 socials.map(({name, url, icon, width, height}) => 
-                <Column width={`${width}px`}>
+                <Column width={`${width}px`} key={name+width+'social'+icon}>
                     <Link href={url}>
                         <Img 
                             src={`${BASE_URL}/${icon}.png`}

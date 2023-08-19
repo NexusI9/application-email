@@ -10,7 +10,7 @@ export default () => (
             <Heading as="h3" style={{...style.p, marginTop:"3px"}}>Explore Motion, Web, <br/> Product Design, illustrations, and more!</Heading>
             <br/>
             <br/>
-            <Link href={PORTFOLIO_URL} style={{...style.button}}>visit my website</Link>
+            <Link href={`${PORTFOLIO_URL}?ref=email`} style={{...style.button}}>visit my website</Link>
         </Column>
         <Column>
             <Img src={`${BASE_URL}/slice-screen.jpg`} width="305"/>

@@ -46,7 +46,7 @@ import {
     <Column>
 
         {socials.map( ({url, name, icon, width, height}) =>
-              <Column style={{width:"18px"}}>   
+              <Column key={name+icon+'socialIcon'} style={{width:"18px"}}>   
                   <Link href={url}>
                     <Img
                       src={`${BASE_URL}/${icon}.png`}

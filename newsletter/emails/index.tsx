@@ -1,18 +1,16 @@
 import {
   Body,
   Container,
-  Column,
   Section,
   Head,
   Html,
-  Img,
   Link,
-  Preview,
-  Text,
+  Preview
 } from '@react-email/components';
 import * as React from 'react';
-import style, { MAX_WIDTH } from '../lib/style';
+import style from '../lib/style';
 import { Header, Intro, Cover, Resume, Showreel, Skills, Quotes, Portfolio, Thank, Footer } from '../components';
+import { render } from '@react-email/render';
 
 interface NewsletterProps {
   agencyName?: string;
@@ -45,5 +43,11 @@ export const Newsletter = ({ agencyName = 'agencyName' }: NewsletterProps) => (
     </Body>
   </Html >
 );
+
+const html = render(<Newsletter />, {
+  pretty: true,
+});
+
+console.log(html);
 
 export default Newsletter;
