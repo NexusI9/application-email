@@ -1,6 +1,6 @@
 import { BASE_URL } from '../lib/utilities';
 import { Section, Text, Img, Column } from "@react-email/components";
-import style, { MAX_WIDTH, size } from '../lib/style';
+import style, { MAX_WIDTH, size, color } from '../lib/style';
 
 
 export default ({ quote, name, job, location, pic, index }) => (
@@ -27,7 +27,7 @@ export default ({ quote, name, job, location, pic, index }) => (
                     </Column>
                     <Column>
                         <Text style={{ fontSize: size.p, margin: "0" }}>{name}</Text>
-                        <Text style={{ fontSize: '15px', fontWeight:'bold', margin: "0" }}>{job}</Text>
+                        <Text style={{ fontSize: '15px', fontWeight:'bold', margin: "0", color:color.purple}}>{job}</Text>
                         <Text style={{ fontSize: '15px', margin: "0" }}>{location}</Text>
                     </Column>
 
