@@ -21,7 +21,7 @@ export default ({ agencyName = '' }) => (
         </Heading>
 
         <Text style={{ fontSize: size.p, marginBottom: "0" }}>
-            I am Nassim, a French creative with 6 years of experience in Web and Motion Design, but also skills in Web Development, 3D Design, and illustration.
+            I am Nassim, a French creative with 7 years of experience in Web and Motion Design, but also skills in Web Development, 3D Design, and illustration.
             A wealth of skills I used on various projects such as marketing collaterals, web apps, and audiovisual interactive setups.
             <br /><br />
             During my last 2 years as a Lead Designer at a Canadian Digital Marketing agency, I mastered Motion, Web, and Print productions while also handling Project Management tasks.

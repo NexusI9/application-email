@@ -5,7 +5,8 @@ import {
   Head,
   Html,
   Link,
-  Preview
+  Preview,
+  Text
 } from '@react-email/components';
 import * as React from 'react';
 import style from '../lib/style';
@@ -16,14 +17,16 @@ interface NewsletterProps {
   agencyName?: string;
 }
 
-export const Newsletter = ({ agencyName = 'agencyName' }: NewsletterProps) => (
+const AGENCY_NAME = 'newagency';
+
+export const Newsletter = ({ agencyName = AGENCY_NAME }: NewsletterProps) => (
   <Html>
     <Head />
     <Preview>Hello! I am a Web and Motion Designer with proficiencies in Front-End Development freshly arrived in Taipei, and ready to unleash my creative power in town!</Preview>
     <Body style={style.main}>
       <Section style={{ width: "100%" }}>
         <Section style={{ textAlign: 'center', marginTop: "20px" }}>
-          <Link href={`https://elkhantour.com/view/?n=${btoa(agencyName)}`} style={style.link}>This email doesn’t display correctly? Click here</Link>
+          <Text style={{...style.link, textDecoration:'none'}}>This email doesn’t display correctly? <Link href={`https://elkhantour.com/view/?n=${btoa(agencyName)}`} style={style.link}>Click here</Link></Text>
         </Section>
         <Header />
         <Container style={style.container}>

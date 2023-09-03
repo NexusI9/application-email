@@ -14,7 +14,7 @@ import style, { color, size, MAX_WIDTH } from '../lib/style';
 export default () => (
     <Section style={{backgroundColor:color.marine}}>
         <Section style={{ backgroundColor: color.marine, paddingBottom: '30px' }}>
-            <Heading as="h2" style={{ color: color.blue_white, fontSize: size.big, textAlign: 'center', marginBottom: "0" }}>
+            <Heading as="h2" style={{ color: color.blue_white, fontSize: size.big, textAlign: 'center', marginBottom: "0", marginTop: "34px" }}>
                 Eager to know<br />the full story?
             </Heading>
             <Heading as="h3" style={{ color: color.blue_white, fontSize: size.subtext, textAlign: 'center', marginTop: '5px' }}>
