@@ -3,14 +3,34 @@ import * as React from 'react';
 import { BASE_URL, PORTFOLIO_URL } from '../lib/utilities';
 import style, { color, size } from '../lib/style';
 
-export default () => (
+export default ({lang='english'}) => (
     <Section style={{paddingLeft:"30px"}}>
         <Column>
-            <Heading as="h2" style={style.heading}>See the <br/>full picture</Heading>
-            <Heading as="h3" style={{...style.p, marginTop:"3px"}}>Explore my Motion, Web, <br/> Product Design work, and more! </Heading>
+            <Heading as="h2" style={style.heading}>{
+            lang === 'french' ?
+            <>Voyez l'ensemble</>
+            :
+            <>See the <br/>full picture</>
+            }
+            </Heading>
+            <Heading as="h3" style={{...style.p, marginTop:"3px"}}>
+                {
+                    lang === 'french' ?
+                    <>Parcourez mes travaux Web, Motion, Product Design et bien plus!</>
+                    :
+                    <>Explore my Motion, Web, <br/> Product Design work, and more!</>
+                }
+                </Heading>
             <br/>
             <br/>
-            <Link href={`${PORTFOLIO_URL}?ref=email`} style={{...style.button}}>visit my website</Link>
+            <Link href={`${PORTFOLIO_URL}?ref=email`} style={{...style.button}}>
+                {
+                    lang === 'french' ?
+                    <>visiter le site web</>
+                    :
+                    <>visit the website</>
+                }
+                </Link>
         </Column>
         <Column>
             <Img src={`${BASE_URL}/slice-screen.jpg`} width="305"/>

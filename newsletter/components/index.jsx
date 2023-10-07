@@ -8,3 +8,5 @@ export {default as Portfolio} from './Portfolio';
 export {default as Thank} from './Thank';
 export {default as Footer} from './Footer';
 export {default as Quotes} from './Quotes';
+export {default as TopBanner} from './TopBanner';
+export {default as Newsletter} from './Newsletter';

@@ -2,8 +2,9 @@
 export default {
 
     rhinoshield: {
+        lang:'english',
         name: 'RHINOSHIELD',
-        team: 'Support Team',
+        headline: 'RHINOSHIELD Support Team',
         hash: 'c571c28fd80af2d078d9ea813ca7b585',
         job: 'Motion/ Web Designer or Front-end Developer',
         coverletter: <>
@@ -19,9 +20,20 @@ export default {
     },
 
     corsair: {
+        lang:'english',
         name: 'Corsair',
+        headline: 'Corsair Hiring Team',
         hash: 'eea50d8c028a5405456b585689c4a130',
-        coverletter: ``
+        coverletter: <></>
+    },
+
+    insidetaiwan: {
+        lang:'french',
+        name: 'insidetaiwan',
+        headline: 'équipe d\'Inside Taiwan',
+        hash: 'a3a790da92be8636d1de4e381aba3841',
+        job: 'Web, Graphique, Motion Designer ou Développeur Web',
+        coverletter: <></>
     },
 
 

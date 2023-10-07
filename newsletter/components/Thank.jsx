@@ -33,25 +33,53 @@ const contact = [
 ];
 
 
-export default () => (
+//   <>Je suis disponible et prêt pour une nouvelle aventure professionnelle</>
+
+export default ({ lang = 'english' }) => (
     <>
-        <Section style={{ textAlign: 'left', padding: '60px 30px 0px' }}>
-            <Heading as="h2" style={{...style.heading, marginBottom:"20px"}}>
-                Thank you so much for <br />your consideration
-            </Heading>
-            <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
-                I am available for work and ready for<br /> a new adventure!
-            </Heading>
-            <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>If you’re interested in my profile, feel free to reach out</Text>
-        </Section>
-        <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
-            <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>to me using one of the contact below.</Text></Column>
-            <Column><Img style={{ marginRight: '205px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
-        </Section>
-        <Section style={{...style.section, marginTop:"20px", marginBottom:"20px"}}>
+
+        {lang === 'french' ?
+            ////////////FRENCH
+            <>
+                <Section style={{ textAlign: 'left', padding: '60px 30px 0px' }}>
+                    <Heading as="h2" style={{ ...style.heading, marginBottom: "20px" }}>
+                        Merci beaucoup pour votre considération
+                    </Heading>
+                    <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
+                        Je suis disponible et prêt pour une nouvelle aventure professionnelle
+                    </Heading>
+                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Intéressé par mon profil? Vous poouvez me contacter</Text>
+                </Section>
+                <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
+                    <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>en utilisant une des coordonnées ci-dessous.</Text></Column>
+                    <Column><Img style={{ marginRight: '205px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
+                </Section>
+            </>
+            :
+            ////////////ENGLISH
+            <>
+                <Section style={{ textAlign: 'left', padding: '60px 30px 0px' }}>
+                    <Heading as="h2" style={{ ...style.heading, marginBottom: "20px" }}>
+                        Thank you so much for <br />your consideration
+                    </Heading>
+                    <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
+                        I am available for work and ready for<br /> a new adventure!
+                    </Heading>
+                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>If you’re interested in my profile, feel free to reach out</Text>
+                </Section>
+                <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
+                    <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>to me using one of the contact below.</Text></Column>
+                    <Column><Img style={{ marginRight: '205px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
+                </Section>
+            </>
+        }
+
+
+
+        <Section style={{ ...style.section, marginTop: "20px", marginBottom: "20px" }}>
             {
                 contact.map(({ name, href, icon, label }) =>
-                    <Link key={icon+name+'contact'} href={href}>
+                    <Link key={icon + name + 'contact'} href={href}>
                         <Section style={{
                             marginBottom: "20px",
                             padding: "9px 17px",
@@ -63,12 +91,12 @@ export default () => (
                         }}>
                             <Column style={{ width: '35px' }}><Img src={`${BASE_URL}/${icon}.png`} width="35" alt={`${name} icon`} /></Column>
                             <Column style={{ width: '3px' }}><Img src={`${BASE_URL}/vertical-line.jpg`} width="2" height="45" alt={`${name} icon`} style={{ margin: "0 15px" }} /></Column>
-                            <Column><Text style={{ margin:0, fontSize: size.subtext, textDecoration: 'none', letterSpacing: "1px", color: color.purple_white, fontWeight: 'bold' }}  >{label}</Text></Column>
+                            <Column><Text style={{ margin: 0, fontSize: size.subtext, textDecoration: 'none', letterSpacing: "1px", color: color.purple_white, fontWeight: 'bold' }}  >{label}</Text></Column>
                         </Section>
                     </Link>
                 )
             }
         </Section>
-        <Img src={`${BASE_URL}/wrap.png`} width="350" style={{ float: 'right', paddingRight: "50px", paddingBottom: "80px" }} />
+        <Img src={`${BASE_URL}/wrap${lang === 'french' ? '-fr' : ''}.png`} width="350" style={{ float: 'right', paddingRight: "50px", paddingBottom: "80px" }} />
     </>
 );

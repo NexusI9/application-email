@@ -41,7 +41,7 @@ export default () => (
         <Section style={{backgroundColor:color.marine, padding:" 50px 30px 10px", textAlign:"center"}}>
             <Img src={`${BASE_URL}/logo-big.png`} style={{margin:'auto'}} width="68"/>
             <Heading as="h2" style={{fontSize:size.subtext, color:color.purple_mid, marginBottom:"0"}}>Nassim El Khantour</Heading>
-            <Text style={{color:color.purple_mid, fontSize:size.p, marginTop:"5px"}}>臺北市，台灣</Text>
+            <Text style={{color:color.purple_mid, fontSize:size.p, marginTop:"5px"}}>Montréal, Canada (soon 台灣)</Text>
         </Section>
         <Section style={{backgroundColor:color.marine, padding:" 0px 215px"}}>
             {
