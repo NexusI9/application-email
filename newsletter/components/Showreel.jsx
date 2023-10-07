@@ -32,7 +32,7 @@ export default ({ lang = 'english' }) => (
             </Heading>
             <Heading as="h3" style={{ ...style.subtitle, paddingLeft: '30px' }}>
                 {lang === 'french' ?
-                    <>Visionnez mon dernier showreel pour un aperçu rapide de mon vaste panel de créations</>
+                    <>Visionnez mon dernier showreel pour un aperçu rapide de mon large panel de créations</>
                     :
                     <>Check out my latest showreel for a quick <br /> overview of my extensive digital content</>
                 }

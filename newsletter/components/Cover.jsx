@@ -10,7 +10,7 @@ import style, { size, color } from '../lib/style';
 import { BASE_URL } from '../lib/utilities';
 
 
-export default ({ agencyName = '', job = 'Multimedia Designer', headline = 'Hiring Team', coverletter = '', lang = 'english' }) => (
+export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', lang = 'english' }) => (
     <Section style={{ ...style.section, paddingBottom: "100px" }}>
         <Img
             src={`${BASE_URL}/${lang === 'french' ? 'chere' : 'dear'}.png`}
@@ -28,14 +28,12 @@ export default ({ agencyName = '', job = 'Multimedia Designer', headline = 'Hiri
             <>
                 <Text style={{ fontSize: size.p, marginBottom: '0' }}>
                     <br />
-                    Ainsi, je suis très intéressé pour un poste de {job} chez {agencyName}.
-                    <br />
                     J'ai la certitude que mon profil serait profitable pour {agencyName}, et je suis très motivé à l'idée
-                    de m'expatirer pour contribuer au succès de l'équipe avec à mon vaste panel de compétence et idées,
-                    mais aussi pour apprendre des autres membres, ainsi que de vivre l'incroyable et riche culture
+                    de m'expatirer pour contribuer au succès de l'équipe avec à mes vastes compétences et idées,
+                    mais aussi pour apprendre des autres membres, ainsi que de vivre l'incroyable et riche
                 </Text>
                 <Section>
-                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>Taiwanaise!</Text>
+                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>culture Taiwanaise!</Text>
                     <Img
                         src={`${BASE_URL}/taiwan-flag.png`}
                         width="18"
@@ -44,7 +42,7 @@ export default ({ agencyName = '', job = 'Multimedia Designer', headline = 'Hiri
                     />
                 </Section>
                 <Text style={{ fontSize: size.p, marginBottom: "0" }}>
-                    Pour votre convenance, vous trouverez au travers ce mail les liens vers mon CV, portfolio et plus.
+                    Pour votre convenance, vous trouverez à travers ce mail les liens vers mon CV, portfolio et plus.
                     <br/>Je reste à votre disposition pour toute autre information complémentaire et vous remercie beaucoup
                     pour votre temps.
                 </Text>
@@ -54,8 +52,6 @@ export default ({ agencyName = '', job = 'Multimedia Designer', headline = 'Hiri
             ///////////////////ENGLISH
             <>
                 <Text style={{ fontSize: size.p, marginBottom: '0' }}>
-                    <br />
-                    I would be very interested in a {job} position at {agencyName}.
                     <br />
                     I strongly believe my profile would be a valuable asset for {agencyName}, and am very motivated to move
                     abroad to contribute to the company team’s success with my broad skillsets and ideas, but also to learn
