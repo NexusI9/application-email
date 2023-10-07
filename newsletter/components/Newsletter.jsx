@@ -31,8 +31,8 @@ export const Newsletter = ({ name, lang='english', hash, headline, job, coverlet
                     <Cover agencyName={name} job={job} headline={headline} coverletter={coverletter} lang={lang} />
                     <Resume lang={lang} />
                     <Showreel lang={lang} />
-                    <Quotes lang={lang} />
                     <Portfolio lang={lang} />
+                    <Quotes lang={lang} />
                     <Thank lang={lang} />
                     <Footer lang={lang} />
                 </Container>

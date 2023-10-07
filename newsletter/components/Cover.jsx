@@ -30,12 +30,12 @@ export default ({ agencyName = '', job = 'Multimedia Designer', headline = 'Hiri
                     <br />
                     Ainsi, je suis très intéressé pour un poste de {job} chez {agencyName}.
                     <br />
-                    J'ai la certitude que mon profile serait un bon fit pour ce poste, et je suis très motivé à l'idée
-                    de m'expatirer pour contrinuer au succès de l'équipe grâce à mon vaste panel de compétence et idées,
-                    mais aussi pour apprendre des autres membres
+                    J'ai la certitude que mon profil serait profitable pour {agencyName}, et je suis très motivé à l'idée
+                    de m'expatirer pour contribuer au succès de l'équipe avec à mon vaste panel de compétence et idées,
+                    mais aussi pour apprendre des autres membres, ainsi que de vivre l'incroyable et riche culture
                 </Text>
                 <Section>
-                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}> ainsi que de profiter de la magnifique culture Taiwanaise!</Text>
+                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>Taiwanaise!</Text>
                     <Img
                         src={`${BASE_URL}/taiwan-flag.png`}
                         width="18"
@@ -45,7 +45,7 @@ export default ({ agencyName = '', job = 'Multimedia Designer', headline = 'Hiri
                 </Section>
                 <Text style={{ fontSize: size.p, marginBottom: "0" }}>
                     Pour votre convenance, vous trouverez au travers ce mail les liens vers mon CV, portfolio et plus.
-                    Je reste à votre disposition pour toute autre information complémentaire et vous remercie beaucoup
+                    <br/>Je reste à votre disposition pour toute autre information complémentaire et vous remercie beaucoup
                     pour votre temps.
                 </Text>
 
@@ -57,7 +57,7 @@ export default ({ agencyName = '', job = 'Multimedia Designer', headline = 'Hiri
                     <br />
                     I would be very interested in a {job} position at {agencyName}.
                     <br />
-                    I strongly believe my profile would be a good fit for this position, and am very motivated to move
+                    I strongly believe my profile would be a valuable asset for {agencyName}, and am very motivated to move
                     abroad to contribute to the company team’s success with my broad skillsets and ideas, but also to learn
                     from other members,
 

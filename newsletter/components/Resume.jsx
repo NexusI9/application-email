@@ -16,7 +16,7 @@ export default ({ lang }) => (
         <Section style={{ backgroundColor: color.marine, paddingBottom: '30px' }}>
             <Heading as="h2" style={{ color: color.blue_white, fontSize: size.big, textAlign: 'center', marginBottom: "0", marginTop: "34px" }}>
                 {lang === 'french' ? 
-                    <>Curieux de connâitre toute l'histoire?</>
+                    <>Envie de connaître <br/>toute l'histoire?</>
                     :
                     <>Eager to know<br />the full story?</>
                 }

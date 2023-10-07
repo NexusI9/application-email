@@ -21,9 +21,9 @@ const QUOTE_MAP = {
             height: '253',
         },
         {
-            quote: 'Ses créations sont non seulement esthétiquement captivantes, mais elles sont également conçues avec une grande attention aux détails et à la cohérence visuelle.',
+            quote: 'Ses créations sont non seulement captivantes, mais elles sont également conçues avec une grande attention aux détails et à la cohérence visuelle.',
             name: 'Matteo M.',
-            job: 'Chargé de projets et Spécialiste de campagnes numériques',
+            job: 'Chargé de projet et Spécialiste de campagnes numériques',
             location: 'Marseille, France',
             pic: 'matteo',
             height: '193'
@@ -60,7 +60,7 @@ const QUOTE_MAP = {
 
 export default ({ lang = 'english' }) => {
 
-    return (<Section style={{ marginBottom: "35px", marginTop: "35px" }}>
+    return (<Section>
         <Heading as="h2" style={{ ...style.heading, paddingLeft: '30px', marginBottom: "40px" }}>
             {lang === 'french' ?
                 <>On a propulsé des projets ensemble!</>

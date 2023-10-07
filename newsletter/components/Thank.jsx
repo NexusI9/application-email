@@ -33,26 +33,24 @@ const contact = [
 ];
 
 
-//   <>Je suis disponible et prêt pour une nouvelle aventure professionnelle</>
-
 export default ({ lang = 'english' }) => (
     <>
 
         {lang === 'french' ?
             ////////////FRENCH
             <>
-                <Section style={{ textAlign: 'left', padding: '60px 30px 0px' }}>
+                <Section style={{ textAlign: 'left', padding: '0px 30px 0px' }}>
                     <Heading as="h2" style={{ ...style.heading, marginBottom: "20px" }}>
                         Merci beaucoup pour votre considération
                     </Heading>
                     <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
-                        Je suis disponible et prêt pour une nouvelle aventure professionnelle
+                        Je suis disponible et prêt pour une nouvelle aventure professionnelle!
                     </Heading>
-                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Intéressé par mon profil? Vous poouvez me contacter</Text>
+                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Intéressé.e par mon profil ? Contacez-moi en utilisant</Text>
                 </Section>
                 <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
-                    <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>en utilisant une des coordonnées ci-dessous.</Text></Column>
-                    <Column><Img style={{ marginRight: '205px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
+                    <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>une des coordonnées ci-dessous.</Text></Column>
+                    <Column><Img style={{ marginRight: '235px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
                 </Section>
             </>
             :
@@ -65,7 +63,7 @@ export default ({ lang = 'english' }) => (
                     <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
                         I am available for work and ready for<br /> a new adventure!
                     </Heading>
-                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>If you’re interested in my profile, feel free to reach out</Text>
+                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Interested by my profile? feel free to reach out</Text>
                 </Section>
                 <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
                     <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>to me using one of the contact below.</Text></Column>

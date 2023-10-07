@@ -4,7 +4,7 @@ import { BASE_URL, PORTFOLIO_URL } from '../lib/utilities';
 import style, { color, size } from '../lib/style';
 
 export default ({lang='english'}) => (
-    <Section style={{paddingLeft:"30px"}}>
+    <Section style={{paddingLeft:"30px", marginTop:'60px', marginBottom:'40px'}}>
         <Column>
             <Heading as="h2" style={style.heading}>{
             lang === 'french' ?
