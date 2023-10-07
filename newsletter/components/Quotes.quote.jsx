@@ -7,7 +7,7 @@ export default ({ quote, name, job, location, pic, index }) => (
     <Section style={{marginBottom:"20px"}}>
         <Img src={`${BASE_URL}/quote/border-top.jpg`} width={MAX_WIDTH} />
         <Section width={MAX_WIDTH}>
-            <Column width="48">
+            <Column width="47">
                 <Img src={`${BASE_URL}/quote/border-${index}-left.jpg`} />
             </Column>
             <Column width="495" style={{ backgroundColor: "#FCFDFF" }}>

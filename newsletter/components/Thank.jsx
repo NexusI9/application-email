@@ -35,18 +35,18 @@ const contact = [
 
 export default () => (
     <>
-        <Section style={{ textAlign: 'center', padding: '60px 30px 0px' }}>
+        <Section style={{ textAlign: 'left', padding: '60px 30px 0px' }}>
             <Heading as="h2" style={{...style.heading, marginBottom:"20px"}}>
                 Thank you so much for <br />your consideration
             </Heading>
             <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
-                I am open to work and ready for<br /> a new adventure!
+                I am available for work and ready for<br /> a new adventure!
             </Heading>
             <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>If you’re interested in my profile, feel free to reach out</Text>
         </Section>
-        <Section>
-            <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'right', marginLeft: 'auto' }}>to me using one of the contact below.</Text></Column>
-            <Column><Img style={{ marginRight: '74px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
+        <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
+            <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>to me using one of the contact below.</Text></Column>
+            <Column><Img style={{ marginRight: '205px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
         </Section>
         <Section style={{...style.section, marginTop:"20px", marginBottom:"20px"}}>
             {

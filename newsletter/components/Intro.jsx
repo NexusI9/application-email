@@ -11,7 +11,7 @@ import style, { color, size, MAX_WIDTH } from '../lib/style';
 
 
 export default () => (<>
-    <Section style={{paddingBottom:"50px"}}>
+    <Section style={{paddingBottom:"24px"}}>
         <Img
             src={`${BASE_URL}/slice-banner.jpg`}
             width={MAX_WIDTH}
