@@ -47,6 +47,4 @@ const html = render(<Newsletter />, {
     pretty: true,
 });
 
-console.log(html);
-
 export default Newsletter;
