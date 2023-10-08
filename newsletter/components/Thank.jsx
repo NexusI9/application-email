@@ -95,6 +95,6 @@ export default ({ lang = 'english' }) => (
                 )
             }
         </Section>
-        <Img src={`${BASE_URL}/wrap${lang === 'french' ? '-fr' : ''}.png`} width="350" style={{ float: 'right', paddingRight: "50px", paddingBottom: "80px" }} />
+        <Img src={`${BASE_URL}/wrap${lang === 'french' ? '-fr' : ''}.png`} width="350" style={{ float: 'right', paddingRight: "50px", paddingBottom: "80px" }} alt="signature good bye"/>
     </>
 );

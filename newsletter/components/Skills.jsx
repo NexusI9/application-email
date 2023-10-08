@@ -7,6 +7,6 @@ import {
 
 export default () => (
     <Section style={{padding: '100px 0 80px'}}>
-        <Img src={`${BASE_URL}/slide-ido.jpg`} width={MAX_WIDTH}/>
+        <Img src={`${BASE_URL}/slide-ido.jpg`} width={MAX_WIDTH} alt="skills banner"/>
     </Section>
 );

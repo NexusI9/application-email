@@ -22,7 +22,7 @@ export default ({heading='', link='', href='', width='', padding=''}) => (
     <Heading as="h4" style={style.resume.heading}>{heading}</Heading>
     <Section style={{ backgroundColor: color.panel_bkg, paddingTop: padding }}>
       <Column style={{ width:width, textAlign: 'right', paddingRight: '5px' }}><Link style={style.resume.link} href={href}>{link}</Link></Column>
-      <Column><Img width="14" height="14" src={`${BASE_URL}/hyperlink.png`} /></Column>
+      <Column><Img width="14" height="14" src={`${BASE_URL}/hyperlink.png`} alt="hyperlink icon"/></Column>
     </Section>
   </Section>
 );

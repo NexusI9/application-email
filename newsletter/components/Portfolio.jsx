@@ -33,7 +33,7 @@ export default ({lang='english'}) => (
                 </Link>
         </Column>
         <Column>
-            <Img src={`${BASE_URL}/slice-screen.jpg`} width="305"/>
+            <Img src={`${BASE_URL}/slice-screen.jpg`} alt="macbook pro mockup" width="305"/>
         </Column>
 
     </Section>

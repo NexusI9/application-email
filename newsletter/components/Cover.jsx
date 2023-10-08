@@ -15,6 +15,7 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
         <Img
             src={`${BASE_URL}/${lang === 'french' ? 'chere' : 'dear'}.png`}
             width="173"
+            alt="dear script"
         />
         <Heading as="h2" style={{ paddingLeft: "100px", fontSize: size.subtext, color: color.purple, margin: "0" }}>
             {headline},
