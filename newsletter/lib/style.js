@@ -40,7 +40,7 @@ export default {
         margin: "0 auto",
         padding: 0,
         minWidth: '100% !important',
-        WebkitTextSizeAdjust: 'none'
+        WebkitTextSizeAdjust: '100%'
     },
     link:{
         paddingTop:'10px',
