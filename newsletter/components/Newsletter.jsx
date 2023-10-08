@@ -13,16 +13,14 @@ import style from '../lib/style';
 import { Header, Intro, Cover, Resume, Showreel, Quotes, Portfolio, Thank, Footer, TopBanner } from '../components';
 import { render } from '@react-email/render';
 
-export const Newsletter = ({ name, lang='english', hash, headline, coverletter }) => (
+export const Newsletter = ({ name, lang = 'english', hash, headline, coverletter }) => (
     <Html>
         <Head />
-        <Section>
+        <Body style={style.main}>
             {lang === 'french' ?
                 <Preview>您好, je suis un Designer Multimédia et Développeur en recherche d'opportunités à Taïwan.</Preview> :
                 <Preview>您好, I am a Multimedia Designer and Developer looking to join an amazing team in Taiwan.</Preview>
             }
-        </Section>
-        <Body style={style.main}>
             <Section width="600" style={{ width: "100%" }}>
                 <TopBanner hash={hash} lang={lang} />
                 <Header />
