@@ -13,7 +13,7 @@ import style from '../lib/style';
 import { Header, Intro, Cover, Resume, Showreel, Quotes, Portfolio, Thank, Footer, TopBanner } from '../components';
 import { render } from '@react-email/render';
 
-export const Newsletter = ({ name, lang='english', hash, headline, job, coverletter }) => (
+export const Newsletter = ({ name, lang='english', hash, headline, coverletter }) => (
     <Html>
         <Head />
         <Section>
@@ -28,7 +28,7 @@ export const Newsletter = ({ name, lang='english', hash, headline, job, coverlet
                 <Header />
                 <Container style={style.container}>
                     <Intro lang={lang} />
-                    <Cover agencyName={name} job={job} headline={headline} coverletter={coverletter} lang={lang} />
+                    <Cover agencyName={name} headline={headline} coverletter={coverletter} lang={lang} />
                     <Resume lang={lang} />
                     <Showreel lang={lang} />
                     <Portfolio lang={lang} />
