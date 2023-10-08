@@ -16,7 +16,7 @@ const contact = [
         name: 'mail',
         href: `mailto:${EMAIL}`,
         icon: 'icon-mail',
-        label: 'nassim.elkhantour@gmail.com'
+        label: 'nassim@elkhantour.com'
     },
     {
         name: 'phone',

@@ -8,7 +8,7 @@ export default ({lang='english'}) => (
         <Column>
             <Heading as="h2" style={style.heading}>{
             lang === 'french' ?
-            <>Parcourez l'intégralité</>
+            <>Découvrez l'intégrale</>
             :
             <>See the <br/>full picture</>
             }
@@ -16,7 +16,7 @@ export default ({lang='english'}) => (
             <Heading as="h3" style={{...style.p, marginTop:"3px"}}>
                 {
                     lang === 'french' ?
-                    <>Explorez mes travaux Web, Motion, Product Design et bien plus.</>
+                    <>Explorez mes projets Web, Motion, Product Design et bien plus.</>
                     :
                     <>Explore my Motion, Web, <br/> Product Design work, and more.</>
                 }
