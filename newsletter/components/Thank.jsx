@@ -49,8 +49,8 @@ export default ({ lang = 'english' }) => (
                     <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Intéressé.e par mon profil ? Contactez-moi en utilisant</Text>
                 </Section>
                 <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
-                    <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>une des coordonnées ci-dessous.</Text></Column>
-                    <Column><Img style={{ marginRight: '235px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
+                    <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>les coordonnées ci-dessous.</Text></Column>
+                    <Column><Img style={{ marginRight: '285px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
                 </Section>
             </>
             :

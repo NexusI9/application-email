@@ -46,7 +46,7 @@ export default ({ lang }) => (
                     />
                     <Img src={`${BASE_URL}/resume/slice-left-e.jpg`} width="173" alt='white background element' />
                 </Link>
-                <Img src={`${BASE_URL}/resume/slice-left-c.jpg`} width="173" alt='blue background element' />
+                <Img src={`${BASE_URL}/resume/slice-left-c.jpg`} width="173" height="84" alt='blue background element' />
             </Column>
             <Column>
                 <Img src={`${BASE_URL}/resume/slice-mid-a.jpg`} width="11" height="350" alt='blue background element' />
@@ -63,7 +63,7 @@ export default ({ lang }) => (
                     />
                     <Img src={`${BASE_URL}/resume/slice-mid-e.jpg`} width="173" alt='white background element' />
                 </Link>
-                <Img src={`${BASE_URL}/resume/slice-mid-b.jpg`} width="173" alt='blue background element' />
+                <Img src={`${BASE_URL}/resume/slice-mid-b.jpg`} width="173" height="152" alt='blue background element' />
             </Column>
             <Column>
                 <Img src={`${BASE_URL}/resume/slice-mid-c.jpg`} width="11" height="350" alt='blue background element' />
@@ -82,7 +82,7 @@ export default ({ lang }) => (
                     />
                     <Img src={`${BASE_URL}/resume/slice-right-e.jpg`} width="173" alt='white background element' />
                 </Link>
-                <Img src={`${BASE_URL}/resume/slice-right-c.jpg`} width="173" alt='blue background element' />
+                <Img src={`${BASE_URL}/resume/slice-right-c.jpg`} width="173"  height="86" alt='blue background element' />
             </Column>
             <Column>
                 <Img src={`${BASE_URL}/resume/slice-right-a.jpg`} width="30" height="350" alt='blue background element' />
