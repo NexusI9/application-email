@@ -29,11 +29,11 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                 <Text style={{ fontSize: size.p, marginBottom: '0' }}>
                     <br />
                     J'ai la certitude que mon profil serait profitable pour {agencyName}, et je suis très motivé à l'idée
-                    de m'expatirer pour contribuer au succès de l'équipe avec à mes vastes compétences et idées,
+                    de m'expatrier pour contribuer au succès de l'équipe avec à mes vastes compétences et idées,
                     mais aussi pour apprendre des autres membres, ainsi que de vivre l'incroyable et riche
                 </Text>
                 <Section>
-                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>culture Taiwanaise!</Text>
+                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>culture Taïwanaise !</Text>
                     <Img
                         src={`${BASE_URL}/taiwan-flag.png`}
                         width="18"

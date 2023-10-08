@@ -44,9 +44,9 @@ export default ({ lang = 'english' }) => (
                         Merci beaucoup pour votre considération
                     </Heading>
                     <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
-                        Je suis disponible et prêt pour une nouvelle aventure professionnelle!
+                        Je suis disponible et prêt pour une nouvelle aventure professionnelle !
                     </Heading>
-                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Intéressé.e par mon profil ? Contacez-moi en utilisant</Text>
+                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Intéressé.e par mon profil ? Contactez-moi en utilisant</Text>
                 </Section>
                 <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
                     <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>une des coordonnées ci-dessous.</Text></Column>
@@ -89,7 +89,7 @@ export default ({ lang = 'english' }) => (
                         }}>
                             <Column style={{ width: '35px' }}><Img src={`${BASE_URL}/${icon}.png`} width="35" alt={`${name} icon`} /></Column>
                             <Column style={{ width: '3px' }}><Img src={`${BASE_URL}/vertical-line.jpg`} width="2" height="45" alt={`${name} icon`} style={{ margin: "0 15px" }} /></Column>
-                            <Column><Text style={{ margin: 0, fontSize: size.subtext, textDecoration: 'none', letterSpacing: "1px", color: color.purple_white, fontWeight: 'bold' }}  >{label}</Text></Column>
+                            <Column><Text style={{ margin: 0, fontSize: size.subtext, textDecoration: 'none', letterSpacing: "1px", color: color.white, fontWeight: 'bold' }}  >{label}</Text></Column>
                         </Section>
                     </Link>
                 )

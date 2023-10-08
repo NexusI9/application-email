@@ -63,7 +63,7 @@ export default ({ lang = 'english' }) => {
     return (<Section>
         <Heading as="h2" style={{ ...style.heading, paddingLeft: '30px', marginBottom: "40px" }}>
             {lang === 'french' ?
-                <>On a propulsé des projets ensemble!</>
+                <>On a propulsé des projets ensemble !</>
                 :
                 <>We propelled projects together!</>
             }

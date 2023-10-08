@@ -8,7 +8,7 @@ export default ({lang='english'}) => (
         <Column>
             <Heading as="h2" style={style.heading}>{
             lang === 'french' ?
-            <>Voyez l'ensemble</>
+            <>Parcourez l'intégralité</>
             :
             <>See the <br/>full picture</>
             }
@@ -16,7 +16,7 @@ export default ({lang='english'}) => (
             <Heading as="h3" style={{...style.p, marginTop:"3px"}}>
                 {
                     lang === 'french' ?
-                    <>Parcourez mes travaux Web, Motion, Product Design et bien plus!</>
+                    <>Explorez mes travaux Web, Motion, Product Design et bien plus !</>
                     :
                     <>Explore my Motion, Web, <br/> Product Design work, and more!</>
                 }
@@ -26,9 +26,9 @@ export default ({lang='english'}) => (
             <Link href={`${PORTFOLIO_URL}?ref=email`} style={{...style.button}}>
                 {
                     lang === 'french' ?
-                    <>visiter le site web</>
+                    <>visiter le portfolio</>
                     :
-                    <>visit the website</>
+                    <>visit the portfolio</>
                 }
                 </Link>
         </Column>
