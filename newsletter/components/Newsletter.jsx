@@ -18,8 +18,8 @@ export const Newsletter = ({ name, lang='english', hash, headline, coverletter }
         <Head />
         <Section>
             {lang === 'french' ?
-                <Preview>您好 ! Je suis un Designer Multimédia et Développeur en recherche d'opportunités à Taïwan.</Preview> :
-                <Preview>您好! I am a Multimedia Designer and Developer looking to join an amazing team in Taiwan.</Preview>
+                <Preview>您好, je suis un Designer Multimédia et Développeur en recherche d'opportunités à Taïwan.</Preview> :
+                <Preview>您好, I am a Multimedia Designer and Developer looking to join an amazing team in Taiwan.</Preview>
             }
         </Section>
         <Body style={style.main}>

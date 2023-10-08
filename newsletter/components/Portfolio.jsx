@@ -16,9 +16,9 @@ export default ({lang='english'}) => (
             <Heading as="h3" style={{...style.p, marginTop:"3px"}}>
                 {
                     lang === 'french' ?
-                    <>Explorez mes travaux Web, Motion, Product Design et bien plus !</>
+                    <>Explorez mes travaux Web, Motion, Product Design et bien plus.</>
                     :
-                    <>Explore my Motion, Web, <br/> Product Design work, and more!</>
+                    <>Explore my Motion, Web, <br/> Product Design work, and more.</>
                 }
                 </Heading>
             <br/>

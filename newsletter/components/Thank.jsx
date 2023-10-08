@@ -44,7 +44,7 @@ export default ({ lang = 'english' }) => (
                         Merci beaucoup pour votre considération
                     </Heading>
                     <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
-                        Je suis disponible et prêt pour une nouvelle aventure professionnelle !
+                        Je suis disponible et prêt pour une nouvelle aventure professionnelle.
                     </Heading>
                     <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Intéressé.e par mon profil ? Contactez-moi en utilisant</Text>
                 </Section>
@@ -61,7 +61,7 @@ export default ({ lang = 'english' }) => (
                         Thank you so much for <br />your consideration
                     </Heading>
                     <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
-                        I am available for work and ready for<br /> a new adventure!
+                        I am available for work and ready for<br /> a new adventure.
                     </Heading>
                     <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Interested by my profile? feel free to reach out</Text>
                 </Section>

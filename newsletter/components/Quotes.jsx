@@ -63,9 +63,9 @@ export default ({ lang = 'english' }) => {
     return (<Section>
         <Heading as="h2" style={{ ...style.heading, paddingLeft: '30px', marginBottom: "40px" }}>
             {lang === 'french' ?
-                <>On a propulsé des projets ensemble !</>
+                <>On a propulsé des projets ensemble</>
                 :
-                <>We propelled projects together!</>
+                <>We propelled projects together</>
             }
         </Heading>
         {QUOTE_MAP[lang].map((item, id) => <Quote key={`quote${id}`} {...item} index={id + 1} />)}

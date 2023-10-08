@@ -33,7 +33,7 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                     mais aussi pour apprendre des autres membres, ainsi que de vivre l'incroyable et riche
                 </Text>
                 <Section>
-                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>culture Taïwanaise !</Text>
+                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>culture Taïwanaise.</Text>
                     <Img
                         src={`${BASE_URL}/taiwan-flag.png`}
                         width="18"
@@ -59,7 +59,7 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
 
                 </Text>
                 <Section>
-                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>as well as experience the amazing Taiwanese culture!</Text>
+                    <Text style={{ textAlign: 'left', fontSize: size.p, lineHeight: '1.5', padding: '0px', margin: "0", float: "left" }}>as well as experience the amazing Taiwanese culture.</Text>
                     <Img
                         src={`${BASE_URL}/taiwan-flag.png`}
                         width="18"
