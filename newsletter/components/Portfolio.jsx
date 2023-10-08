@@ -13,7 +13,7 @@ export default ({lang='english'}) => (
             <>See the <br/>full picture</>
             }
             </Heading>
-            <Heading as="h3" style={{...style.p, marginTop:"3px"}}>
+            <Heading as="h3" style={{...style.subtitle, marginTop:"3px"}}>
                 {
                     lang === 'french' ?
                     <>Explorez mes projets Web, Motion, Product Design et bien plus.</>
