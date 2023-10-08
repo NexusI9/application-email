@@ -35,12 +35,12 @@ export default {
     main:{
         backgroundColor: color.white,
         color:color.marine,
-        width:'100%',
+        width:'100% !important',
         fontFamily: 'HelveticaNeue,Helvetica,Arial,sans-serif',
-        margin: 0,
+        margin: "0 auto",
         padding: 0,
         minWidth: '100% !important',
-        WebkitTextSizeAdjust: '100%'
+        WebkitTextSizeAdjust: 'none'
     },
     link:{
         paddingTop:'10px',

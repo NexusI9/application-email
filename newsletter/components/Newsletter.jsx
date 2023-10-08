@@ -23,7 +23,7 @@ export const Newsletter = ({ name, lang='english', hash, headline, job, coverlet
             }
         </Section>
         <Body style={style.main}>
-            <Section style={{ width: "100%" }}>
+            <Section width="600" style={{ width: "100%" }}>
                 <TopBanner hash={hash} lang={lang} />
                 <Header />
                 <Container style={style.container}>
