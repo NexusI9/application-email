@@ -71,12 +71,12 @@ export default ({ lang }) => (
             <Column>
 
                 <Img src={`${BASE_URL}/resume/slice-right-b.jpg`} width="173" alt='blue background element' />
-                <Link href='https://elkhantour.com/assets/pdf/Resume-Nassim_El_Khantour.pdf' style={{ backgroundColor: color.blue_white }}>
+                <Link href='https://elkhantour.com/assets/pdf/CV-Nassim_El_Khantour.pdf' style={{ backgroundColor: color.blue_white }}>
                     <Img src={`${BASE_URL}/resume/slice-right-d.jpg`} width="173" alt='white background element' />
                     <ResumeLink
                         heading='Version Française'
                         link='Voir le CV'
-                        href='https://elkhantour.com/assets/pdf/Resume-Nassim_El_Khantour.pdf'
+                        href='https://elkhantour.com/assets/pdf/CV-Nassim_El_Khantour.pdf'
                         width='120px'
                         padding='10px'
                     />
