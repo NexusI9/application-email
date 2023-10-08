@@ -16,7 +16,7 @@ export default {
             <br /><br /><br />
             On top of mastering Web and Motion Design, my experience as a Multimedia Designer and Art Director expanded my proficiencies with practices like 3D design, web development, illustration, and sound design. An extensive skill set that I put together in diverse projects such as websites, web apps, marketing collaterals, product showcases, video-mapping installations, and animated short movies (later awarded).
             <br />
-            I strongly believe my versatile skill set could be valuable for RHINOSHIELD, either on the web, marketing, or branding department to promote your high-quality renowned phone cases and all the accessories coming with it.
+            I am confident that my versatile skillset would be valuable either on the web, marketing, or branding department to promote and showcase your high-quality renowned phone cases, and all the accessories that come with it.
             I would also be very interested in using my developer proficiency to enhance your website's user and customer experience.
         </>
     },
@@ -37,7 +37,7 @@ export default {
         coverletter: <>
             Je suis un Designer Multimédia et Dévelopeur Web avec plus de 7 ans d’expérience, et cela fait environ 2 ans que je travaille en tant que Lead Designer dans une agence Marketing numérique au Canada, où je fais du Design Web, Motion et Print, ainsi que de la gestion de projet.
             <br />
-            J’envisage de m’expatrier à Taïwan cette année pour le long terme, et je suis actuellement en recherche active d’opportunités. Ainsi, je serai vraiment très intéressé à l’idée de rejoindre l’équipe en tant que Designer Graphique, Web ou Motion. Je fais aussi du développement Front-End.
+            J’envisage de m’expatrier à Taïwan cette année pour le long terme, et je suis actuellement en recherche active d’opportunités. Ainsi, je suis vraiment très intéressé à l’idée de rejoindre l’équipe en tant que Designer Graphique, Web ou Motion. Je fais aussi du développement Front-End.
             <br /><br />
             En plus de maîtriser les compétences énoncées plus haut, mon expérience en marketing m’a aussi donné de fortes connaissances en stratégie numérique : j’ai eu l’occasion de m’occuper de projets “360” allants de la stratégie, à la conception web, la création d’infolettre, ainsi que de nombreux contenus publicitaires statiques et animés, pour divers canaux et audiences. Le tout souvent ancré dans des stratégies omni et cross canal, demandant ainsi une compréhension globale de la production numérique, en plus d’une cohérence dans le message et la direction artistique.
             <br /><br />
