@@ -74,17 +74,17 @@ export default {
             <br /><br />
             I saw your work along with Ultra Combos projects and was absolutely stunned by the scale and quality of what you and your team do. The typeface work and the splendid video mapping installations really got me fascinated.
             <br /><br />
-            I am a Multimedia Designer and Creative Developer with over 7 years of experience with expertise in Motion and Web design but also do 3D production, sound design, and development.
+            I am a Multimedia Designer and Creative Developer with over 7 years of experience with expertise in Motion and Web design, but also do 3D production, sound design, and development.
             <br />
-            After doing video-mapping installations and scenography for 4 years for cultural events and underground music acts in France,  I freelanced in Motion design and Web development. It's been now 2 years that I'm working as a Lead Designer in a digital marketing agency in Canada.
+            After doing video-mapping installations and scenography for 4 years during cultural events and underground music acts in France,  I freelanced in Motion design and Web development. It's been now 2 years that I'm working as a Lead Designer in a digital marketing agency in Canada.
             <br /><br />
-            I am reaching out to you because I'm planning to come to Taiwan for the long term this year, and am highly motivated to join a talented team like Ultra Combos. It's been a while since I wished to move to Taiwan, and contributing to high-standard experiential multimedia projects like you do certainly belongs to my highest professional goal as well.
+            I am reaching out to you because I'm planning to come to Taiwan for the long term this year, and am highly motivated to join a talented team like Ultra Combos. It's been a while since I wished to move to Taiwan, and contributing to high-standard experiential multimedia projects like you do certainly belongs to my highest professional goal.
             <br />
             My wealth of experience expanded my proficiencies by combining various 3D, 2D, and video mapping software such as TouchDesigner, Resolume, MadMapper, Blender, Maya, Unity, After Effects, and all the Adobe Suite of course. I also got to use various languages and frameworks from Node.js, and PHP to Python and even C#.
             <br /><br />
             Interactive multimedia has always been part of my practice as a designer and artist, and although I never got the budget, space, or crew to do as big installations as you do, it has been a dream of mine to one day be able to join a professional team that creates such high-quality immersive experiences.
             <br />
-            I believe not many companies are positioned to leverage my skill set, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
+            I assume not many companies are positioned to leverage my skillset, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
         </>
     }
 

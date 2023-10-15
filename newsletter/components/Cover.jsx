@@ -57,7 +57,7 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                 <Text style={{ fontSize: size.p, marginBottom: '0' }}>
 
                     I strongly believe my profile would be a profitable asset for {agencyName}, and am very motivated to move
-                    abroad to contribute to the company team’s success with my broad skillsets and ideas, but also to learn
+                    abroad to contribute to the company team’s success with my broad skillset and ideas, but also to learn
                     from other members,
 
                 </Text>
