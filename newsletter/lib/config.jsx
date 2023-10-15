@@ -55,13 +55,13 @@ export default {
         hash: '6c52fa7bf2721e6440024393ee6a2cdc',
         coverletter: <>I hope this email finds you well.
             <br /><br />
-            I went through Barker Production's work and was impressed by the wide variety of styles and quality you produce, notably the Dizzi Dizzo partnership with the gothic chrome typeface combined with the flat graphics echoing Saul Bass was an efficient clash of style. I also really liked the intent to picture her as an elegant and powerful figure, her Gogoro becoming almost an object of cosmetic beauty, the double lecture was very successful. Also, I thought the use of dolly zoom and stabilization in the X3 ad was super smart as it gives a strong visual signature while being a such simple move.
+            I went through Barker Production's work and was impressed by the wide variety of styles and quality you produce. The Dizzi Dizzo partnership with the gothic chrome typeface combined with the flat graphics echoing Saul Bass was an efficient clash of style. I also really liked the intent to picture her as an elegant and powerful figure, her Gogoro becoming almost an object of cosmetic beauty, the double lecture was very successful. Also, I thought the use of dolly zoom and stabilization in the X3 ad was super smart as it gives a strong visual signature while being a such simple move.
             <br /><br />
             I am reaching out to you because I'm planning to move to Taiwan for the long term and would be very motivated to join an amazing team that could use my extensive skillset. After watching your work and the services you offer, I'm confident Barker Production would be the ideal place for it.
             <br />
             I am a Multimedia Designer and Creative Developer, and it’s been 7 years since I've been combining these skills in a variety of projects. I have been working for the past 2 years as a Lead Designer in a digital marketing agency in Canada where I do Web, Motion, and Print productions. I would be very happy to contribute to your company by doing editing, compositing, or 3D design and VFX. I also know sound design and web development if needed.
             <br /><br />
-            It’s been years I have been passionate about Asian cinema, from the uninhibited cinematography of Miike and Christopher Doyle to the pragmatic portrayals of Hou Hsiao-Hsien or Zhang Yimou: I find infinite inspiration in the wealthy cinema of Asia and would love to put myself to work in high-quality productions like you do at Barker.</>
+            Also, it’s been years I have been passionate about Asian cinema. From the uninhibited cinematography of Miike and Christopher Doyle to the pragmatic portrayals of Hou Hsiao-Hsien or Zhang Yimou: I find infinite inspiration in the wealthy cinema of Asia and would love to put myself to work in high-quality productions like your company does.</>
     }
 
 

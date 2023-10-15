@@ -38,7 +38,7 @@ export default ({ lang }) => (
                 <Link href='https://elkhantour.com/assets/pdf/%E7%B0%A1%E6%AD%B7-Nassim_El_Khantour.pdf' style={{ backgroundColor: color.blue_white }}>
                     <Img src={`${BASE_URL}/resume/slice-left-d.jpg`} width="173" alt='white background element' />
                     <ResumeLink
-                        heading='中文版本'
+                        heading='中文'
                         link='檢查簡歷'
                         href='https://elkhantour.com/assets/pdf/%E7%B0%A1%E6%AD%B7-Nassim_El_Khantour.pdf'
                         width='115px'
@@ -55,7 +55,7 @@ export default ({ lang }) => (
                 <Link href='https://elkhantour.com/assets/pdf/Resume-Nassim_El_Khantour.pdf' style={{ backgroundColor: color.blue_white }}>
                     <Img src={`${BASE_URL}/resume/slice-mid-d.jpg`} width="173" alt='white background element' />
                     <ResumeLink
-                        heading='English Version'
+                        heading='English'
                         link='See the resume'
                         href='https://elkhantour.com/assets/pdf/Resume-Nassim_El_Khantour.pdf'
                         width='142px'
@@ -74,7 +74,7 @@ export default ({ lang }) => (
                 <Link href='https://elkhantour.com/assets/pdf/CV-Nassim_El_Khantour.pdf' style={{ backgroundColor: color.blue_white }}>
                     <Img src={`${BASE_URL}/resume/slice-right-d.jpg`} width="173" alt='white background element' />
                     <ResumeLink
-                        heading='Version Française'
+                        heading='Français'
                         link='Voir le CV'
                         href='https://elkhantour.com/assets/pdf/CV-Nassim_El_Khantour.pdf'
                         width='120px'

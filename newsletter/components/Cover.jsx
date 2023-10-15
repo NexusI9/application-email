@@ -14,10 +14,10 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
     <Section style={{ ...style.section, paddingBottom: "100px" }}>
         <Img
             src={`${BASE_URL}/${lang === 'french' ? 'chere' : 'dear'}.png`}
-            width="173"
+            width="143"
             alt="dear script"
         />
-        <Heading as="h2" style={{ paddingLeft: "100px", fontSize: size.subtext, color: color.purple, margin: "0" }}>
+        <Heading as="h2" style={{ paddingLeft: "90px", fontSize: size.subtext, color: color.purple, margin: "0" }}>
             {headline},
         </Heading>
 
