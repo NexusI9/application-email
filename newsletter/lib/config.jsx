@@ -48,20 +48,20 @@ export default {
         </>
     },
 
-    barkerproductions: {
+    barkerproduction: {
         lang: 'english',
-        name: 'Barker Productions',
-        headline: 'David',
-        hash: 'd44b88b3ba7fd884bc667d8476f7a1bd',
+        name: 'Barker Production',
+        headline: 'David from Barker Production',
+        hash: '6c52fa7bf2721e6440024393ee6a2cdc',
         coverletter: <>I hope this email finds you well.
             <br /><br />
-            I went through Barker Productions work and was really impressed by the wide variety of style and quality you produce, the Dizzi Dizzo partnership with the gothic chrome typeface combined with the flat graphics echoing Saul Bass was such a clash of style. I also really liked the intent to picture her as such an elegant and powerful figure, where her gogoro becomes almost an object of cosmetic beauty, the double narrative was efficient and successful. Then, I thought the use of dolly zoom and stabilisation in the X3 ad was super smart as it gives a strong visual signature while being a such simple move.
+            I went through Barker Production's work and was impressed by the wide variety of styles and quality you produce, notably the Dizzi Dizzo partnership with the gothic chrome typeface combined with the flat graphics echoing Saul Bass was an efficient clash of style. I also really liked the intent to picture her as an elegant and powerful figure, her Gogoro becoming almost an object of cosmetic beauty, the double lecture was very successful. Also, I thought the use of dolly zoom and stabilization in the X3 ad was super smart as it gives a strong visual signature while being a such simple move.
             <br /><br />
-            I am planning to move to Taiwan for the long term and join an amazing team that could use my extensive skillset in productions of quality. When I watch your work and the services you offer, I believe Barker Productions would be the ideal place for it.
-            <br />I am a Multimedia Designer and Creative Developer and it’s been 7 years I combine these skills in a variety of projects. It’s been 2 years that I work as a Lead Designer in a digital marketing agency in Canada where I do Web, Motion and Print production as well as project management.
-            <br />I would be very happy to contribute to your company’s work either on the editing, compositing, 3D design and more. I also have knowledge in sound design and development if needed.
+            I am reaching out to you because I'm planning to move to Taiwan for the long term and would be very motivated to join an amazing team that could use my extensive skillset. After watching your work and the services you offer, I'm confident Barker Production would be the ideal place for it.
+            <br />
+            I am a Multimedia Designer and Creative Developer, and it’s been 7 years since I've been combining these skills in a variety of projects. I have been working for the past 2 years as a Lead Designer in a digital marketing agency in Canada where I do Web, Motion, and Print productions. I would be very happy to contribute to your company by doing editing, compositing, or 3D design and VFX. I also know sound design and web development if needed.
             <br /><br />
-            Also, it’s been years I am very passionate about asian cinema: from the uninhibited cinematography of Miike and Christopher Doyle, as well as the pragmatic representations of Hou Hsiao-Hsien or Zhang Yimou, I find infinite inspiration in the wealthy cinema of Asia, and would love to put myself at work in high quality productions like you produce at Barker. I am very motivated to collaborate and learn from the talented people that are behind those productions.</>
+            It’s been years I have been passionate about Asian cinema, from the uninhibited cinematography of Miike and Christopher Doyle to the pragmatic portrayals of Hou Hsiao-Hsien or Zhang Yimou: I find infinite inspiration in the wealthy cinema of Asia and would love to put myself to work in high-quality productions like you do at Barker.</>
     }
 
 
