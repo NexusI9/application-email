@@ -52,7 +52,7 @@ export default {
     },
     topBanner:{
         width: MAX_WIDTH,
-        padding:'20px 30px'
+        padding:'10px 10px'
     },
     introText:{
         textAlign:'center', 

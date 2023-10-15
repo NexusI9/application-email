@@ -44,9 +44,25 @@ export default {
             Que ce soit dans la gestion et design du site web, communication marketing ou même dans le branding, j’ai la conviction que mon large panel de compétences pourra faire évoluer la marque, son image et sa stratégie de contenu.
             <br />
             Étant moi-même passionné par la culture asiatique et particulièrement par le cinéma Taïwanais, j'ai développé une plateforme spécialisée dans le cinéma d'asie : <Link href="https://kinoji.elkhantour.com/">KINO寺</Link>, ou bien encore <Link href="https://chrome.google.com/webstore/detail/laos-—-your-mandarin-lear/phfknknpaoeiabieldikfgkocdnaejeh/related">une extension web</Link> pour aider à apprendre le mandarin.
-            <br/>Ainsi, je trouve un intérêt commun au sein du projet Inside Taiwan, notamment dans sa nature à mettre en lumière et faire découvrir la culture et l’histoire Taïwanaise à autrui.
+            <br />Ainsi, je trouve un intérêt commun au sein du projet Inside Taiwan, notamment dans sa nature à mettre en lumière et faire découvrir la culture et l’histoire Taïwanaise à autrui.
         </>
     },
+
+    barkerproductions: {
+        lang: 'english',
+        name: 'Barker Productions',
+        headline: 'David',
+        hash: 'd44b88b3ba7fd884bc667d8476f7a1bd',
+        coverletter: <>I hope this email finds you well.
+            <br /><br />
+            I went through Barker Productions work and was really impressed by the wide variety of style and quality you produce, the Dizzi Dizzo partnership with the gothic chrome typeface combined with the flat graphics echoing Saul Bass was such a clash of style. I also really liked the intent to picture her as such an elegant and powerful figure, where her gogoro becomes almost an object of cosmetic beauty, the double narrative was efficient and successful. Then, I thought the use of dolly zoom and stabilisation in the X3 ad was super smart as it gives a strong visual signature while being a such simple move.
+            <br /><br />
+            I am planning to move to Taiwan for the long term and join an amazing team that could use my extensive skillset in productions of quality. When I watch your work and the services you offer, I believe Barker Productions would be the ideal place for it.
+            <br />I am a Multimedia Designer and Creative Developer and it’s been 7 years I combine these skills in a variety of projects. It’s been 2 years that I work as a Lead Designer in a digital marketing agency in Canada where I do Web, Motion and Print production as well as project management.
+            <br />I would be very happy to contribute to your company’s work either on the editing, compositing, 3D design and more. I also have knowledge in sound design and development if needed.
+            <br /><br />
+            Also, it’s been years I am very passionate about asian cinema: from the uninhibited cinematography of Miike and Christopher Doyle, as well as the pragmatic representations of Hou Hsiao-Hsien or Zhang Yimou, I find infinite inspiration in the wealthy cinema of Asia, and would love to put myself at work in high quality productions like you produce at Barker. I am very motivated to collaborate and learn from the talented people that are behind those productions.</>
+    }
 
 
 
