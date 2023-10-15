@@ -62,6 +62,30 @@ export default {
             I am a Multimedia Designer and Creative Developer, and it’s been 7 years since I've been combining these skills in a variety of projects such as animated short movies, web apps, or video mapping installations. I have been working for the past 2 years as a Lead Designer in a digital marketing agency in Canada where I do Web, Motion, and Print productions. I am highly motivated to contribute to your high-standard productions by doing editing, compositing, or 3D design and VFX. I also know sound design and web development if needed.
             <br /><br />
             Also, it’s been years since I have been passionate about Asian cinema. From the uninhibited cinematography of Miike and Christopher Doyle to the pragmatic portrayals of Hou Hsiao-Hsien or Zhang Yimou: I find infinite inspiration in the wealth of Asian cinema and would love to put myself to work in high-quality productions like your company does.</>
+    },
+
+    tinganho: {
+        lang: 'english',
+        name: 'Ultra Combos',
+        headline: 'Ting-An Ho from Ultra Combos',
+        hash: '5798cdbcaf232421adb48eecd7602225',
+        coverletter: <>
+            I hope this email finds you well.
+            <br /><br />
+            I saw your work along with Ultra Combos projects and was absolutely stunned by the scale and quality of what you and your team do. The typeface work and the splendid video mapping installations really got me fascinated.
+            <br /><br />
+            I am a Multimedia Designer and Creative Developer with over 7 years of experience with expertise in Motion and Web design but also do 3D production, sound design, and development.
+            <br />
+            After doing video-mapping installations and scenography for 4 years for cultural events and underground music acts in France,  I freelanced in Motion design and Web development. It's been now 2 years that I'm working as a Lead Designer in a digital marketing agency in Canada.
+            <br /><br />
+            I am reaching out to you because I'm planning to come to Taiwan for the long term this year, and am highly motivated to join a talented team like Ultra Combos. It's been a while since I wished to move to Taiwan, and contributing to high-standard experiential multimedia projects like you do certainly belongs to my highest professional goal as well.
+            <br />
+            My wealth of experience expanded my proficiencies by combining various 3D, 2D, and video mapping software such as TouchDesigner, Resolume, MadMapper, Blender, Maya, Unity, After Effects, and all the Adobe Suite of course. I also got to use various languages and frameworks from Node.js, and PHP to Python and even C#.
+            <br /><br />
+            Interactive multimedia has always been part of my practice as a designer and artist, and although I never got the budget, space, or crew to do as big installations as you do, it has been a dream of mine to one day be able to join a professional team that creates such high-quality immersive experiences.
+            <br />
+            I believe not many companies are positioned to leverage my skill set, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
+        </>
     }
 
 

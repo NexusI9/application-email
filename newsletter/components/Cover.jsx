@@ -44,9 +44,9 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                 </Section>
                 <Text style={{ fontSize: size.p, marginBottom: "0" }}>
                     Pour votre convenance, vous trouverez à travers ce mail les liens vers mon CV, portfolio et plus.
-                    <br/>Je reste à votre disposition pour toute autre information complémentaire et vous remercie beaucoup
+                    <br />Je reste à votre disposition pour toute autre information complémentaire et vous remercie beaucoup
                     pour votre temps.
-                    <br/>
+                    <br />
                     Nassim
                 </Text>
 
@@ -55,7 +55,7 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
             ///////////////////ENGLISH
             <>
                 <Text style={{ fontSize: size.p, marginBottom: '0' }}>
-          
+
                     I strongly believe my profile would be a profitable asset for {agencyName}, and am very motivated to move
                     abroad to contribute to the company team’s success with my broad skillsets and ideas, but also to learn
                     from other members,
@@ -72,10 +72,10 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                 </Section>
                 <Text style={{ fontSize: size.p, marginBottom: "0" }}>
                     For your convenience, you’ll find throughout this email links to my resume, portfolio, and more.
-                    <br />I remain available if you have any questions or need more information.
-                    <br /><br />Thank you very much for your time.
-                    <br/>Nassim
-                    </Text>
+                    <br />Please feel free to reach out if you have any questions or require additional information.
+                    <br /><br />Thank you very much for your time, I am eager to hear back from you.
+                    <br /><br />Nassim
+                </Text>
             </>}
 
 
