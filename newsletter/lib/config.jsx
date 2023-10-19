@@ -21,13 +21,6 @@ export default {
         </>
     },
 
-    corsair: {
-        lang: 'english',
-        name: 'Corsair',
-        headline: 'Corsair Hiring Team',
-        hash: 'eea50d8c028a5405456b585689c4a130',
-        coverletter: <></>
-    },
 
     insidetaiwan: {
         lang: 'french',
@@ -84,6 +77,26 @@ export default {
             <br /><br />
             Interactive multimedia has always been part of my practice as a designer and artist, and although I never got the budget, space, or crew to do as big installations as you do, it has been a dream of mine to one day be able to join a professional team that creates such high-quality immersive experiences.
             <br />
+            I assume not many companies are positioned to leverage my skillset, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
+        </>
+    },
+
+    ultracombos: {
+        lang: 'english',
+        name: 'Ultra Combos',
+        headline: 'Ultra Combos Hiring Team',
+        hash: '56ff9a4f735ad4e7366a423bf1c0b067',
+        coverletter: <>
+            I saw your work and was absolutely stunned by the scale and quality of what your team does. The splendid video mapping and new media installations really got me fascinated.
+            <br /><br />
+            I am a Multimedia Designer and Creative Developer with 7+ years of experience with expertise in Motion and Web design but also do 3D production, sound design, and development.
+            <br /><br />
+            I'm planning to come to Taiwan for the long term this year, and am highly motivated to join a talented team like Ultra Combos. It's been a while since I wished to move to Taiwan, and contributing to high-standard experiential multimedia projects like you do certainly belongs to my highest professional goal.
+            <br /><br />
+            After doing video-mapping installations and scenography for 4 years during cultural events and underground music acts in France, I freelanced in Motion design and Web development. It's been now 2 years that I’ve been working as a Lead Designer in a digital marketing agency in Canada. <br />
+            This wealth of experience expanded my proficiencies by combining various 3D, 2D, and video mapping software such as TouchDesigner, Resolume, MadMapper, Blender, Maya, Unity, After Effects, and the Adobe Suite of course. <br/>I also got to use various languages and frameworks from Node.js, and PHP to Python and even C#.
+            <br /><br />
+            Interactive multimedia has always been part of my practice as a designer and artist, and although I never got the budget, space, or crew to do as big installations as you do, it has been a dream of mine to one day be able to join a professional team that creates such high-quality immersive experiences. <br />
             I assume not many companies are positioned to leverage my skillset, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
         </>
     }

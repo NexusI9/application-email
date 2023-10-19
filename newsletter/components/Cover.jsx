@@ -72,9 +72,8 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                 </Section>
                 <Text style={{ fontSize: size.p, marginBottom: "0" }}>
                     For your convenience, you’ll find throughout this email links to my resume, portfolio, and more.
-                    <br />Please feel free to reach out if you have any questions or require additional information.
                     <br /><br />Thank you very much for your time, I am eager to hear back from you.
-                    <br /><br />Nassim
+                    <br />Nassim
                 </Text>
             </>}
 
