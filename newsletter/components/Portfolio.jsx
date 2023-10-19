@@ -18,7 +18,7 @@ export default ({lang='english'}) => (
                     lang === 'french' ?
                     <>Explorez mes projets Web, Motion, Product Design et bien plus.</>
                     :
-                    <>Explore my Motion, Web, Product Design work, and more.</>
+                    <>Explore my Motion, Web, Product Design projects, and more.</>
                 }
                 </Heading>
             <br/>

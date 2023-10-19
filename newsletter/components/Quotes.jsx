@@ -5,7 +5,7 @@ import Quote from './Quotes.quote';
 const QUOTE_MAP = {
     french: [
         {
-            quote: 'I strongly recommend having him on your side for any tech-savvy initiative. A real wizard!!!',
+            quote: 'I strongly recommend having him on your side for any tech-savvy initiative. A real wizard!',
             name: 'Paul-André C.',
             job: 'Associé et Chargé des affaires à Celisus Communication',
             location: 'Montréal, Canada',
@@ -31,7 +31,7 @@ const QUOTE_MAP = {
     ],
     english: [
         {
-            quote: 'I strongly recommend having him on your side for any tech-savvy initiative. A real wizard!!!',
+            quote: 'I strongly recommend having him on your side for any tech-savvy initiative. A real wizard!',
             name: 'Paul-André C.',
             job: 'Associate & Business development at Celisus Communication',
             location: 'Montréal, Canada',

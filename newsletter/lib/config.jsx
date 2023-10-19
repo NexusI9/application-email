@@ -14,7 +14,7 @@ export default {
             I am planning to move to Taiwan this year for the long term, and am very interested in a full-time job as either a Graphic, Web, or Motion Designer in your company. I also do Front-End development and 3D WebGL integration. <br />
             As I haven’t found the Hiring Team email, I would be more than thankful if you could transfer this email to the right department. Thank you in advance.
             <br /><br /><br />
-            On top of mastering Web and Motion Design, my experience as a Multimedia Designer and Art Director expanded my proficiencies with practices like 3D design, web development, illustration, and sound design. An extensive skill set that I put together in diverse projects such as websites, web apps, marketing collaterals, product showcases, video-mapping installations, and animated short movies (later awarded).
+            On top of mastering Web and Motion Design, my experience as a Multimedia Designer and Art Director expanded my proficiencies with practices like 3D design, web development, illustration, and sound design. An extensive skill set that I put together in diverse projects such as websites, web apps, marketing collaterals, product showcases, video mapping installations, and animated short movies (later awarded).
             <br />
             I am confident that my versatile skillset would be valuable either on the web, marketing, or branding department to promote and showcase your high-quality renowned phone cases, and all the accessories that come with it.
             I would also be very interested in using my developer proficiency to enhance your website's user and customer experience.
@@ -69,7 +69,7 @@ export default {
             <br /><br />
             I am a Multimedia Designer and Creative Developer with over 7 years of experience with expertise in Motion and Web design, but also do 3D production, sound design, and development.
             <br />
-            After doing video-mapping installations and scenography for 4 years during cultural events and underground music acts in France,  I freelanced in Motion design and Web development. It's been now 2 years that I'm working as a Lead Designer in a digital marketing agency in Canada.
+            After doing video mapping installations and scenography for 4 years during cultural events and underground music acts in France,  I freelanced in Motion design and Web development. It's been now 2 years that I'm working as a Lead Designer in a digital marketing agency in Canada.
             <br /><br />
             I am reaching out to you because I'm planning to come to Taiwan for the long term this year, and am highly motivated to join a talented team like Ultra Combos. It's been a while since I wished to move to Taiwan, and contributing to high-standard experiential multimedia projects like you do certainly belongs to my highest professional goal.
             <br />
@@ -77,7 +77,7 @@ export default {
             <br /><br />
             Interactive multimedia has always been part of my practice as a designer and artist, and although I never got the budget, space, or crew to do as big installations as you do, it has been a dream of mine to one day be able to join a professional team that creates such high-quality immersive experiences.
             <br />
-            I assume not many companies are positioned to leverage my skillset, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
+            I assume not many companies are positioned to leverage my versatile skillset, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
         </>
     },
 
@@ -93,11 +93,32 @@ export default {
             <br /><br />
             I'm planning to come to Taiwan for the long term this year, and am highly motivated to join a talented team like Ultra Combos. It's been a while since I wished to move to Taiwan, and contributing to high-standard experiential multimedia projects like you do certainly belongs to my highest professional goal.
             <br /><br />
-            After doing video-mapping installations and scenography for 4 years during cultural events and underground music acts in France, I freelanced in Motion design and Web development. It's been now 2 years that I’ve been working as a Lead Designer in a digital marketing agency in Canada. <br />
-            This wealth of experience expanded my proficiencies by combining various 3D, 2D, and video mapping software such as TouchDesigner, Resolume, MadMapper, Blender, Maya, Unity, After Effects, and the Adobe Suite of course. <br/>I also got to use various languages and frameworks from Node.js, and PHP to Python and even C#.
+            After doing video mapping installations and scenography for 4 years during cultural events and underground music acts in France, I freelanced in Motion design and Web development. It's been now 2 years that I’ve been working as a Lead Designer in a digital marketing agency in Canada. <br />
+            This wealth of experience expanded my proficiencies by combining various 3D, 2D, and video mapping software such as TouchDesigner, Resolume, MadMapper, Blender, Maya, Unity, After Effects, and the Adobe Suite of course. <br />I also got to use various languages and frameworks from Node.js, and PHP to Python and even C#.
             <br /><br />
             Interactive multimedia has always been part of my practice as a designer and artist, and although I never got the budget, space, or crew to do as big installations as you do, it has been a dream of mine to one day be able to join a professional team that creates such high-quality immersive experiences. <br />
-            I assume not many companies are positioned to leverage my skillset, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
+            I assume not many companies are positioned to leverage my versatile skillset, but after browsing your remarkable portfolio I'm confident that Ultra Combos is the ideal place where I could use my potential to its fullest.
+        </>
+    },
+
+    pixeldeep: {
+        lang: 'english',
+        name: 'Pixel Deep',
+        headline: 'Pixel Deep Hiring Team',
+        hash: '0e83494f6c76c0b4d10a6ef4f2b993ad',
+        coverletter: <>
+            I browsed with great attention your portfolio and was really impressed by the quality and wide variety of styles and you produce.<br /><br />
+            I am planning to move to Taiwan for the long term and looking to join an amazing team that could use my versatile skillset in high-quality productions. When I explore your works and the services you offer, I am confident that Pixel Deep would be the ideal place for it.
+            <br /><br />
+            I am a Multimedia Designer and Creative Developer with 7+ years of experience. It’s been 2 years since I’ve been working as a Lead Designer in a digital marketing agency in Canada where I do Web, Motion, and Print production as well as project management.
+            <br />
+            On top of mastering Web and Motion Design, my experience as a Multimedia Designer and Art Director expanded my proficiencies with practices like 3D design, web development, illustration, and sound design. 
+            <br />
+            An extensive skill set that I put together in diverse projects such as marketing collaterals, animated short movies and websites.
+            <br />
+            These versatile and sometimes complex projects not only gave me an overall understanding of digital productions, they also allowed me to create compelling and coherent visual communications across diverse platforms for omni and cross-channel strategies.
+            <br /><br />
+            Finally, I am genuinely passionate about Asia cinematography and am highly interested in using my proficiencies to produce artwork related to this industry like you do at Pixel Deep. Also, I am looking forward to using my extensive skillset to propel the studio’s productions.
         </>
     }
 

@@ -73,7 +73,7 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                 <Text style={{ fontSize: size.p, marginBottom: "0" }}>
                     For your convenience, you’ll find throughout this email links to my resume, portfolio, and more.
                     <br /><br />Thank you very much for your time, I am eager to hear back from you.
-                    <br />Nassim
+                    <br /><br />Nassim
                 </Text>
             </>}
 

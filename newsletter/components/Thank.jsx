@@ -63,11 +63,11 @@ export default ({ lang = 'english' }) => (
                     <Heading as="h3" style={{ ...style.subtitle, marginBottom: '2px' }}>
                         I am available for work and ready for<br /> a new adventure.
                     </Heading>
-                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Interested in my profile? Feel free to reach out</Text>
+                    <Text style={{ fontSize: size.p, marginTop: '20px', marginBottom: '0' }}>Interested in my profile? Please reach out to me using one</Text>
                 </Section>
                 <Section style={{ textAlign: 'left', paddingLeft: '30px' }}>
-                    <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}>to me using one of the contact below.</Text></Column>
-                    <Column><Img style={{ marginRight: '205px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
+                    <Column><Text style={{ margin: '0', fontSize: size.p, textAlign: 'left' }}> of the contact below.</Text></Column>
+                    <Column><Img style={{ marginRight: '355px', marginLeft: '5px' }} src={`${BASE_URL}/handshake.png`} width="18" alt="handshake emoji" /></Column>
                 </Section>
             </>
         }

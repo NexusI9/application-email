@@ -84,7 +84,7 @@ export default {
         fontSize:size.p,
         fontWeight:"bold",
         letterSpacing:'1px',
-        padding: '10px 25px',
+        padding: '14px 32px',
         borderRadius:"3px"
     }
 };

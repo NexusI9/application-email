@@ -21,9 +21,9 @@ export default ({lang='english'}) => (<>
         <Heading as='h1' style={{ color: color.dark_grey, fontSize: lang === 'french' ? size.small : size.p, fontWeight: 'bold', textAlign: 'center' }}>
         {
             lang === 'french' ?
-            <>Web et Motion Designer :: Directeur Artistique :: Développeur Web</>
+            <>Designer Multimédia :: Directeur Artistique :: Développeur Web</>
             :
-            <>Web & Motion Designer :: Art Director :: Web Developer</>
+            <>Multimedia Designer :: Art Director :: Web Developer</>
         }
         </Heading>
     </Section>
