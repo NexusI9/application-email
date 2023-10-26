@@ -107,12 +107,12 @@ export default {
         headline: 'Pixel Deep Hiring Team',
         hash: '0e83494f6c76c0b4d10a6ef4f2b993ad',
         coverletter: <>
-            I browsed with great attention your portfolio and was really impressed by the quality and wide variety of styles and you produce.<br /><br />
+            I browsed with great attention your portfolio and was really impressed by the quality and wide variety of styles you produce.<br /><br />
             I am planning to move to Taiwan for the long term and looking to join an amazing team that could use my versatile skillset in high-quality productions. When I explore your works and the services you offer, I am confident that Pixel Deep would be the ideal place for it.
             <br /><br />
             I am a Multimedia Designer and Creative Developer with 7+ years of experience. It’s been 2 years since I’ve been working as a Lead Designer in a digital marketing agency in Canada where I do Web, Motion, and Print production as well as project management.
             <br />
-            On top of mastering Web and Motion Design, my experience as a Multimedia Designer and Art Director expanded my proficiencies with practices like 3D design, web development, illustration, and sound design. 
+            On top of mastering Web and Motion Design, my experience as a Multimedia Designer and Art Director expanded my proficiencies with practices like 3D design, web development, illustration, and sound design.
             <br />
             An extensive skill set that I put together in diverse projects such as marketing collaterals, animated short movies and websites.
             <br />
@@ -120,8 +120,28 @@ export default {
             <br /><br />
             Finally, I am genuinely passionate about Asia cinematography and am highly interested in using my proficiencies to produce artwork related to this industry like you do at Pixel Deep. Also, I am looking forward to using my extensive skillset to propel the studio’s productions.
         </>
-    }
+    },
 
+
+    pineappleweb: {
+        lang: 'french',
+        name: 'Pineapple Web',
+        headline: 'équipe de Pineapple Web',
+        hash: '0f40f648bf9d20a14b74cf3613181067',
+        coverletter: <>
+            J’ai parcouru votre portfolio avec grand intérêt et j’ai vraiment été impressionné par la qualité et variété de vos projets.
+            <br /><br />
+            Je suis un Designer Multimédia et Dévelopeur Web avec plus de sept ans d’expériences, et cela fait deux ans que je travaille en tant que Lead Designer dans une agence de Marketing numérique au Canada, où je fais du Design Web, Motion et Print ainsi que de la gestion de projet.
+            <br />
+            Je prévois de m’expatrier à Taïwan cette année pour le long terme et souhaite rejoindre une équipe talentueuse qui pourra pleinement tirer profit de mon panel de compétences. Quand je vois vos réalisations ainsi que les services que vous proposez, j’ai la certitude que Pineapple Web est l’agence idéale pour cela. 
+            <br/>
+            Ainsi, je suis vraiment très intéressé à l’idée de rejoindre l’équipe en tant que Designer Web, Motion ou Graphique. Je fais aussi du développement Front-End : en plus de maîtriser des frameworks comme React ou Next, ma particularité réside dans ma capacité à créer des animations 3D interactives sur-mesure.
+            <br /><br />
+            En plus de maîtriser les compétences énoncées plus haut, mes années en Marketing m’ont aussi donné de fortes connaissances en stratégie numérique : j’ai eu l’occasion de m’occuper de projets “360” allant de la stratégie, conception web, création d’infolettres, ainsi que d'une centaine de contenus publicitaires statiques et animés pour un large éventail de canaux et audiences. Le tout souvent ancré dans des stratégies omni et cross canal, demandant ainsi une compréhension globale de la production numérique, en plus d’une cohérence dans le message et la direction artistique.
+            <br /><br />
+            Que ce soit dans le design des sites web, création d’animations, communication marketing ou même dans le branding, j’ai la conviction que mon large panel de compétences sera une véritable force pour Pineapple Web et pourrait même faire évoluer votre éventail de produits et services.
+            </>
+    }
 
 
 };

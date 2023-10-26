@@ -28,9 +28,8 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
             ///////////////////FRENCH
             <>
                 <Text style={{ fontSize: size.p, marginBottom: '0' }}>
-                    <br />
-                    J'ai la certitude que mon profil serait profitable pour {agencyName}, et je suis très motivé à l'idée
-                    de m'expatrier pour contribuer au succès de l'équipe avec à mes vastes compétences et idées,
+                    {/*J'ai la certitude que mon profil serait profitable pour {agencyName}, et*/} 
+                    Enfin, je suis très motivé à l'idée de m'expatrier pour contribuer au succès de l'équipe avec à mes vastes compétences et idées,
                     mais aussi pour apprendre des autres membres, ainsi que de vivre l'incroyable et riche
                 </Text>
                 <Section>
@@ -44,9 +43,9 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                 </Section>
                 <Text style={{ fontSize: size.p, marginBottom: "0" }}>
                     Pour votre convenance, vous trouverez à travers ce mail les liens vers mon CV, portfolio et plus.
-                    <br />Je reste à votre disposition pour toute autre information complémentaire et vous remercie beaucoup
+                    Je reste à votre disposition pour toute autre information complémentaire et vous remercie beaucoup
                     pour votre temps.
-                    <br />
+                    <br /><br/>
                     Nassim
                 </Text>
 
@@ -72,7 +71,7 @@ export default ({ agencyName = '', headline = 'Hiring Team', coverletter = '', l
                 </Section>
                 <Text style={{ fontSize: size.p, marginBottom: "0" }}>
                     For your convenience, you’ll find throughout this email links to my resume, portfolio, and more.
-                    <br /><br />Thank you very much for your time, I am eager to hear back from you.
+                    <br /><br />Thank you very much for your time, I am eager to hear from you.
                     <br /><br />Nassim
                 </Text>
             </>}
